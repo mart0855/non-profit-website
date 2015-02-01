@@ -85,6 +85,12 @@ p {
 
 /* — — — — — TYPE-RELATED STYLING — — — — — */
 
+a, a:link {
+	text-decoration: none;
+	color: #228B22;
+	border-bottom: 1px dotted rgba(34,139,34,.55);
+}
+
 em, dfn {
 	font-style: italic;
 	font-weight: inherit;
