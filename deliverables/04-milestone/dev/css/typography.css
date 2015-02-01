@@ -88,7 +88,30 @@ p {
 a, a:link {
 	text-decoration: none;
 	color: #228B22;
-	border-bottom: 1px dotted rgba(34,139,34,.55);
+	border-bottom: .1em dotted rgba(34,139,34,.55);
+}
+
+a:visited {
+	color: #2E8B57;
+	border-bottom-color: 1em dotted #2E8B57;
+}
+
+a:hover {
+	color: rgba(34,139,34,.55);
+}
+
+a:focus {
+	border-bottom: none;
+	outline: 1px dotted #228B22;
+	background-color: rgba(152,251,152,.75);
+	color: #fff;
+	text-shadow: 1px 1px #228B22;
+}
+
+a:active {
+	color: #228B22;
+	background-color: transparent;
+	text-shadow: none;
 }
 
 em, dfn {
