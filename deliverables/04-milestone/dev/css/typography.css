@@ -164,7 +164,7 @@ q:after {
     content: close-quote;
 }
 
-ul {
+ul, ol {
 	width: 100%;
 }
 
@@ -172,4 +172,9 @@ ul li {
 	display: block;
 	list-style-type: none;
 	font-weight: 300;
+}
+
+ol li {
+	font-weight: 300;
+	list-style-type: upper-roman;
 }
