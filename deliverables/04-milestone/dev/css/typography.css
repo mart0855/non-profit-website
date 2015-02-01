@@ -76,3 +76,10 @@ small, .atom, .milli {
 	margin: 1.414em 0 0.5em;
 	line-height: 1.2;
 }
+
+p {
+	font-weight: 300;
+	line-height: 1.55;
+	margin-bottom: 1.35em;
+}
+
