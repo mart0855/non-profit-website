@@ -88,4 +88,8 @@ em {
 	font-weight: inherit;
 }
 
+strong {
+	font-weight: bold;
+	font-style: inherit;
+}
 
