@@ -83,7 +83,9 @@ p {
 	margin-bottom: 1.35em;
 }
 
-em {
+/* — — — — — TYPE-RELATED STYLING — — — — — */
+
+em, dfn {
 	font-style: italic;
 	font-weight: inherit;
 }
@@ -91,5 +93,45 @@ em {
 strong {
 	font-weight: bold;
 	font-style: inherit;
+}
+
+sub, sup {
+	margin: 0;
+	padding: 0;
+	line-height: 1.2em;
+}
+
+mark {
+	background-color: rgba(152,251,152,.5);
+}
+
+::selection {
+	background-color: rgba(152,251,152,.75);
+}
+
+::-moz-selection {
+	background-color: rgba(152,251,152,.75);
+}
+
+del {
+	color: #C0C0C0;
+}
+
+ins {
+	text-decoration: none;
+	font-style: italic;
+	font-weight: inherit;
+}
+
+q { 
+    display: inline;
+}
+
+q:before { 
+    content: open-quote;
+}
+
+q:after { 
+    content: close-quote;
 }
 
