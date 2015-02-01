@@ -14,3 +14,65 @@ body {
 	width: 100%;
 	margin: 0 auto;
 }
+
+/* — — — — — TYPE SIZING — — — — — */ /* ! — ! BI-CLASS IS TEMPORARY, decide whether to use universe class, or byte-size class ! — ! */
+
+.multiverse, .yotta {
+	font-size: 4.767rem;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+ }
+
+.universe, .zeta {
+	font-size: 3.814rem;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+h1, .galaxy, .exa {
+	font-size: 3.998em;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+h2, .starsystem, .peta {
+	font-size: 2.827em;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+h3, .star, .tera {
+	font-size: 1.999em;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+h4, .planet, .giga {
+	font-size: 1.414em;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+h5, .organism, .mega {
+	font-size: 1.25rem;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+h6, .cell, .kilo {
+	font-size: 1rem;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+small, .atom, .milli { 
+	font-size: 0.707em;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+.string, .micro {
+	font-size: .64rem;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
