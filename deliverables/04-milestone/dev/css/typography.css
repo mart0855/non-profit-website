@@ -1,2 +1,16 @@
 @charset "UTF-8";
 
+/* — — — — — BASE SPACING & BASE FONT IMPLEMENTATION — — — — — */
+
+html {
+	font-family: 'Roboto', sans-serif; /* ! — ! VARIABLE ! — ! */
+	font-weight: 400;
+	font-size: 100%;
+	line-height: 1.5rem;
+}
+
+body {
+	display:block;
+	width: 100%;
+	margin: 0 auto;
+}
