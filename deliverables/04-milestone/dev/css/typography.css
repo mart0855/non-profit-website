@@ -164,3 +164,12 @@ q:after {
     content: close-quote;
 }
 
+ul {
+	width: 100%;
+}
+
+ul li {
+	display: block;
+	list-style-type: none;
+	font-weight: 300;
+}
