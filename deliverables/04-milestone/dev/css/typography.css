@@ -223,3 +223,35 @@ figure img {
 	margin: 0;
 }
 
+table {
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing: 0;
+	margin: 1rem 0;
+}
+
+table caption {
+	font-weight: 500;
+}
+
+th {
+	text-decoration: none;
+	font-weight: 400;
+	font-style: normal;
+}
+
+td {
+	font-weight: 300;
+}
+
+tr {
+	border-bottom: 1px dotted #C0C0C0;
+}
+
+tr:last-child {
+	border-bottom: none;
+}
+
+tr:nth-child(even) {
+	background-color: rgba(152,251,152,.1);
+}
