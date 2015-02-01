@@ -178,3 +178,18 @@ ol li {
 	font-weight: 300;
 	list-style-type: upper-roman;
 }
+
+dl {
+	width: 100%;
+}
+
+dt {
+	font-weight: 400;
+	text-decoration: none;
+}
+
+dd {
+	font-style: italic;
+	font-weight: 300;
+}
+
