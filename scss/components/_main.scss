@@ -19,30 +19,3 @@
 	left: 1em;
 }
 
-.top-nav ul {
-	@include zero;
-	font-size: 0;
-	position: absolute;
-	bottom: 0;
-	background-color:$dark-grey;
-	opacity: .9;
-	text-align: center;
-		li {
-			display: inline-block;
-			font-size: 1.25rem;
-			a {
-				@include ease(all, 300ms, linear);
-				border-bottom:none;
-				color: $light-grey;
-				padding: 1em 0;
-				width:100%;
-				display:block;
-			&:hover {
-				background-color: $dark-green;
-				cursor: pointer;
-				}
-			}
-		}
-
-}
-
