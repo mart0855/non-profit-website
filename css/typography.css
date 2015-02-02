@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+/* — — — — — BASE SPACING & BASE FONT IMPLEMENTATION — — — — — */
+
+html {
+	font-family: 'Roboto', sans-serif; /* ! — ! VARIABLE ! — ! */
+	font-weight: 400;
+	font-size: 100%;
+	line-height: 1.5rem;
+}
+
+body {
+	display:block;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* — — — — — TYPE SIZING — — — — — */ /* ! — ! BI-CLASS IS TEMPORARY, decide whether to use universe class, or byte-size class ! — ! */
+
+.multiverse, .yotta {
+	font-size: 4.767rem;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+ }
+
+.universe, .zeta {
+	font-size: 3.814rem;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+h1, .galaxy, .exa {
+	font-size: 3.998em;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+h2, .starsystem, .peta {
+	font-size: 2.827em;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+h3, .star, .tera {
+	font-size: 1.999em;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+h4, .planet, .giga {
+	font-size: 1.414em;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+h5, .organism, .mega {
+	font-size: 1.25rem;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+h6, .cell, .kilo {
+	font-size: 1rem;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+small, .atom, .milli { 
+	font-size: 0.707em;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+.string, .micro {
+	font-size: .64rem;
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+}
+
+p {
+	font-weight: 300;
+	line-height: 1.55;
+	margin-bottom: 1.35em;
+}
+
+/* — — — — — TYPE-RELATED STYLING — — — — — */
+
+a, a:link {
+	text-decoration: none;
+	color: #228B22;
+	border-bottom: .1em dotted rgba(34,139,34,.55);
+}
+
+a:visited {
+	color: #2E8B57;
+	border-bottom-color: 1em dotted #2E8B57;
+}
+
+a:hover {
+	color: rgba(34,139,34,.55);
+}
+
+a:focus {
+	border-bottom: none;
+	outline: 1px dotted #228B22;
+	background-color: rgba(152,251,152,.75);
+	color: #fff;
+	text-shadow: 1px 1px #228B22;
+}
+
+a:active {
+	color: #228B22;
+	background-color: transparent;
+	text-shadow: none;
+}
+
+em, dfn {
+	font-style: italic;
+	font-weight: inherit;
+}
+
+strong {
+	font-weight: bold;
+	font-style: inherit;
+}
+
+sub, sup {
+	margin: 0;
+	padding: 0;
+	line-height: 1.2em;
+}
+
+mark {
+	background-color: rgba(152,251,152,.5);
+}
+
+::selection {
+	background-color: rgba(152,251,152,.75);
+}
+
+::-moz-selection {
+	background-color: rgba(152,251,152,.75);
+}
+
+del {
+	color: #C0C0C0;
+}
+
+ins {
+	text-decoration: none;
+	font-style: italic;
+	font-weight: inherit;
+}
+
+q { 
+    display: inline;
+}
+
+q:before { 
+    content: open-quote;
+}
+
+q:after { 
+    content: close-quote;
+}
+
+ul, ol {
+	width: 100%;
+}
+
+ul li {
+	display: block;
+	list-style-type: none;
+	font-weight: 300;
+}
+
+ol li {
+	font-weight: 300;
+	list-style-type: upper-roman;
+}
+
+dl {
+	width: 100%;
+}
+
+dt {
+	font-weight: 400;
+	text-decoration: none;
+}
+
+dd {
+	font-style: italic;
+	font-weight: 300;
+}
+
+.figure {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+}
+
+figure {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+figcaption {
+	font-style: italic;
+	font-weight: 300;
+	font-size: 0.707em;
+	background-color: #f5f5f5;
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 1rem 1rem;
+}
+
+figure img {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+table {
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing: 0;
+	margin: 1rem 0;
+}
+
+table caption {
+	font-weight: 500;
+}
+
+th {
+	text-decoration: none;
+	font-weight: 400;
+	font-style: normal;
+}
+
+td {
+	font-weight: 300;
+}
+
+tr {
+	border-bottom: 1px dotted #C0C0C0;
+}
+
+tr:last-child {
+	border-bottom: none;
+}
+
+tr:nth-child(even) {
+	background-color: rgba(152,251,152,.1);
+}
