@@ -3,3 +3,46 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
+
+.header {
+	width:100%;
+	position:relative;
+	background: transparent url("../images/bg-placeholder.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 10em 0;
+}
+
+.logo {
+	position:absolute;
+	top: 1em;
+	left: 1em;
+}
+
+.top-nav ul {
+	@include zero;
+	font-size: 0;
+	position: absolute;
+	bottom: 0;
+	background-color:$dark-grey;
+	opacity: .9;
+	text-align: center;
+		li {
+			display: inline-block;
+			font-size: 1.25rem;
+			a {
+				@include ease(all, 300ms, linear);
+				border-bottom:none;
+				color: $light-grey;
+				padding: 1em 0;
+				width:100%;
+				display:block;
+			&:hover {
+				background-color: $dark-green;
+				cursor: pointer;
+				}
+			}
+		}
+
+}
+
