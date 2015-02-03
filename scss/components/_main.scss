@@ -10,7 +10,12 @@
 	position:relative;
 	background: transparent url("../images/bg-placeholder.jpg") no-repeat center center;
 	background-size: cover;
-	padding: 10em 0;
+	padding: 5em 0em;
+}
+
+.tag-line {
+	display: block;
+	letter-spacing: .25px;
 }
 
 .logo {
@@ -19,3 +24,82 @@
 	left: 1em;
 }
 
+// Toggle Nav
+
+.hb-toggle{
+	background: transparent;
+	height: 26px;
+	width: 30px;
+	padding: .65em 0em;
+	top: 1em;
+	right: 1em;
+	position:absolute;
+}
+
+.hb-toggle span,
+.hb-toggle span:before,
+.hb-toggle span:after {
+
+  position: absolute;
+  border-radius: 1px;
+  height: 5px;
+  width: 30px;
+  background-color: $light-green;
+  display: block;
+  content: '';
+  transition: all 250ms ease-in-out;
+
+}
+
+.hb-toggle span:before {
+	top:-10px;
+}
+
+.hb-toggle span:after {
+	bottom:-10px;
+}
+
+.hb-toggle.expand span {
+	background-color: transparent;
+}
+
+.hb-toggle.expand span:before,
+.hb-toggle.expand span:after {
+	top: 0;
+}
+
+.hb-toggle.expand span:before {
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.hb-toggle.expand span:after {
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+// Navigation Overlay
+
+.top-nav ul {
+	@include zero;
+	position: absolute;
+	opacity: 0;
+	top:6em;
+			li {
+			width: 100%;
+			text-align: center;
+			margin: 1em 0;
+		}
+		a {
+			color: $light-grey;
+			text-align:center;
+			border-bottom: none;
+			letter-spacing: 1px;
+		}
+}
+
+.top-nav ul[data-state="expand"] {
+	opacity: 1;
+}
