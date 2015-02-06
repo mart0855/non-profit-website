@@ -8,9 +8,14 @@
 .header {
 	width:100%;
 	position:relative;
-	background: transparent url("../images/bg-placeholder.jpg") no-repeat center center;
+	background: url("../images/bg-placeholder.jpg") no-repeat center center;
 	background-size: cover;
-	padding: 10em 0;
+	padding: 6em 0em;
+}
+
+.tag-line {
+	display: block;
+	letter-spacing: .25px;
 }
 
 .logo {
@@ -19,30 +24,165 @@
 	left: 1em;
 }
 
+.header h3 {
+	text-align: center;
+	margin: 0 auto;
+	color: $dark-green;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.header h3 {
+		display:block;
+		visibility: hidden;
+	}
+
+	// Toggle Nav
+
+	.hb-toggle{
+		background: transparent;
+		height: 26px;
+		width: 30px;
+		padding: .65em 0em;
+		top: 1em;
+		right: 1em;
+		position:absolute;
+		z-index:1000;
+	}
+
+	.hb-toggle span,
+	.hb-toggle span:before,
+	.hb-toggle span:after {
+
+	  position: absolute;
+	  border-radius: 1px;
+	  height: 5px;
+	  width: 30px;
+	  background-color: $light-green;
+	  display: block;
+	  content: '';
+	  transition: all 250ms ease-in-out;
+
+	}
+
+	.hb-toggle span:before {
+		top:-10px;
+	}
+
+	.hb-toggle span:after {
+		bottom:-10px;
+	}
+
+	.hb-toggle.expand span {
+		background-color: transparent;
+	}
+
+	.hb-toggle.expand span:before,
+	.hb-toggle.expand span:after {
+		top: 0;
+	}
+
+	.hb-toggle.expand span:before {
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+
+	.hb-toggle.expand span:after {
+		-ms-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+// Navigation Overlay
+
+	.no-scroll {
+		overflow:hidden;
+	}
+
+	.top-nav ul {
+		position: fixed;
+		opacity: 0;
+		background-color: $dark-grey;
+		height: 100vh;
+		width:100%;
+		top:0em;
+		z-index:999;
+			li {
+				width: 100%;
+				text-align: center;
+			}
+			li:first-child {
+				margin-top: 6em;
+			}
+			a {
+				color: $light-grey;
+				text-align:center;
+				border-bottom: none;
+				letter-spacing: 1px;
+			}
+	}
+
+	.top-nav[data-state="expand"] ul {
+		opacity: .9;
+	}
+
+}
+
+// Big Screen Navigation Styling
+
 .top-nav ul {
 	@include zero;
+	@include ease(all, 250ms, linear);
 	font-size: 0;
 	position: absolute;
 	bottom: 0;
-	background-color:$dark-grey;
-	opacity: .9;
 	text-align: center;
-		li {
-			display: inline-block;
+	display:block;
+			li {
 			font-size: 1.25rem;
+			letter-spacing: 1px;
+			border-right: 2px solid $black;
+			&:last-child {
+				border-right:none;
+			}
 			a {
-				@include ease(all, 300ms, linear);
+				@include ease(all, 250ms, linear);
 				border-bottom:none;
 				color: $light-grey;
 				padding: 1em 0;
 				width:100%;
 				display:block;
+				background-color:$dark-grey;
+				opacity: .9;
 			&:hover {
-				background-color: $dark-green;
-				cursor: pointer;
+				background-color: $black;
+				opacity:1;
 				}
 			}
 		}
-
 }
 
+.bottom-nav ul {
+	@include zero;
+	font-size: 0;
+	display:block;
+	background-color: $dark-grey;
+		li {
+			font-size:1rem;
+			padding: 0 2em;
+			ul li{
+					padding : .25rem;
+					a{
+						padding:0;
+					}
+				}
+		}
+		a {
+			border-bottom:none;
+			padding: 1em 0;
+			display:block;
+			width: 100%;
+			color: $light-grey;
+		}
+}
