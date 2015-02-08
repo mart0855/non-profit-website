@@ -163,26 +163,67 @@
 		}
 }
 
+// Bottom Navigation
+
+
+
 .bottom-nav ul {
 	@include zero;
 	font-size: 0;
-	display:block;
 	background-color: $dark-grey;
+	margin: 0 auto;
+	li {
+		font-size: 1rem;
+		padding-bottom: 2em;
+		text-align: center;
+		ul li{
+		 padding : .5rem 0;
+			a{
+				padding:0;
+			}
+		}
+	}
+	a {
+		@include ease(all, 250ms, linear);
+		padding: 2.5em 0 .5em 0;
+		margin: 0 auto;
+		border-bottom: none;
+		color: $light-green;
+		display:block;
+		&:hover {
+			opacity: .6;
+		}
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	.bottom-nav ul {
+		@include zero;
+		font-size: 0;
+		display: block;
+		background-color : $dark-grey;
 		li {
 			font-size:1rem;
-			padding: 0 2em;
 			ul li{
-					padding : .25rem;
-					a{
-						padding:0;
-					}
+					padding : .5rem;
+				a{
+					padding:0;
 				}
+			}
 		}
 		a {
-			border-bottom:none;
-			padding: 1em 0;
+			@include ease(all, 250ms, linear);
+			padding: 2.5em 0 .5em 0;
 			display:block;
 			width: 100%;
-			color: $light-grey;
+			text-align: center;
+			&:hover {
+				opacity:.6;
+			}
 		}
+	}
 }
+
+
