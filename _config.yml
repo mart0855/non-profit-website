@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /non-profit-website
+exclude: ['README.md', 'scss', 'prepros.cfg']
