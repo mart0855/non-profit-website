@@ -1312,3 +1312,29 @@ tr:nth-child(even) {
       .bottom-nav ul a:hover {
         opacity: 0.6; }
  }
+
+/* — — — — DONATIONS — — — — */
+/* line 261, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+.donations {
+  clear: both;
+  display: block;
+  overflow: hidden; }
+
+/* line 267, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+.donate-button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1.5rem;
+  display: inline-block;
+  float: left;
+  position: relative;
+  height: 10rem; }
+  /* line 277, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  .donate-button h3 {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #2b2b2b;
+    position: absolute;
+    top: 27.5%;
+    left: 40%; }
