@@ -265,22 +265,43 @@
 }
 
 .donate-button {
-   -moz-box-sizing:    border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing:         border-box;
-   margin: 0;
-   padding: 1.5rem;  
-   display: inline-block;
-   float: left;
-   position: relative;
-   height: 10rem;
-   h3 {
-	   margin: 0;
-	   font-size: 4rem;
-	   font-weight: 400;
-	   color: $dark-grey;
-	   position: absolute;
-	   top: 27.5%;
-	   left: 40%;
-   }
+	-moz-box-sizing:    border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing:         border-box;
+	margin: 0;
+	display: inline-block;
+	float: left;
+	position: relative;
+	height: 13rem;
+	overflow: hidden;
+	@include ease(all, 250ms, linear);
+	h3 {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		font-size: 4rem;
+		font-weight: 100;
+		position: absolute;
+		top: 27.5%;
+		@include ease(all, 150ms, ease-in);
+		}
+	p {
+		transform: translateY(210px);
+		text-align: center;
+		vertical-align: middle;
+		@include ease(all, 200ms, ease-out);
+	}
+	&:hover {
+		h3 {
+			color: $light-grey;
+			transform: translateY(-5px);
+			font-size: 2.5rem;
+			font-weight: 700;
+		}
+		p {
+			color: $light-grey;
+			transform: translateY(105px);
+		}
+	background: #6B8E23;
+	}
 }
