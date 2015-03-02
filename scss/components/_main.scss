@@ -300,6 +300,7 @@
 		text-align: center;
 		vertical-align: middle;
 		@include ease(all, 200ms, ease-out);
+		opacity: 0;
 	}
 	input {
 		height: 13rem;
@@ -312,6 +313,7 @@
 		display: block;
 		margin: 0;
 		width: 100%;
+		background-color : #f7f7f7;
 		color: $dark-grey;
 		font-family: 'Roboto', sans-serif;
 		font-size: 4rem;
@@ -319,12 +321,10 @@
 		text-align: right;			
 		&:focus {
 			outline: 1px solid $green;
-			color: $green;
 		}
 	}	
 	::-webkit-input-placeholder {
-		backgrond-color: #f7f7f7;
-		color: $dark-grey;
+		color: #A1A1A1;
 		font-family: 'Roboto', sans-serif;
 		font-size: 4rem;
 		font-weight: 100;
@@ -354,6 +354,7 @@
 		p {
 			color: $light-grey;
 			transform: translateY(105px);
+			opacity: 1;
 		}
 	background: $green;
 	}
