@@ -18,16 +18,25 @@
 	letter-spacing: .25px;
 }
 
-.logo {
-	position:absolute;
-	top: 1em;
-	left: 1em;
+.logo-wrapper {
+  margin: 0;
+  padding: 0;
+	 a{
+	  height: 110px;
+	  width: 100px;
+	  position: absolute;
+	  left: 20px;
+	  top: 20px;
+	  background: url("../images/logo.svg") no-repeat center center;
+	  background-size: 100px auto;
+	}
 }
 
 .header h3 {
 	text-align: center;
 	margin: 0 auto;
-	color: $dark-green;
+	color: $light-grey;
+	text-shadow: 2px 2px 2px $black;
 }
 
 .videoWrapper {
