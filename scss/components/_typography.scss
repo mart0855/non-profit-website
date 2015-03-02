@@ -4,12 +4,27 @@
 
 html {
 	font-family: 'Roboto', sans-serif; /* ! — ! VARIABLE ! — ! */
-	font-weight: 400;
 	font-size: 100%;
 	line-height: 1.5rem;
 }
 
 /* — — — — — TYPE SIZING — — — — — */ /* ! — ! BI-CLASS IS TEMPORARY, decide whether to use universe class, or byte-size class ! — ! */
+
+.w700 {
+	font-weight: 700;
+}
+
+.w400 {
+	font-weight: 400;
+}
+
+.w300 {
+	font-weight: 300;
+}
+
+.w100 {
+	font-weight: 100;
+}
 
 .multiverse, .yotta {
 	font-size: 4.767rem;

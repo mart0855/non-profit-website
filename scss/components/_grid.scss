@@ -643,6 +643,19 @@
 
 }
 
+.unit-left {
+	float: left;
+}
+
+.unit-right {
+	float: right;
+}
+
+.center-object {
+	display: block;
+	margin: 0 auto;
+}
+
 .unit-content-distribute {
   display: -ms-flexbox;
   display: -webkit-flex;
