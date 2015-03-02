@@ -42,6 +42,19 @@
   visibility: visible;
 }
 
+.unit-left {
+	float: left;
+}
+
+.unit-right {
+	float: right;
+}
+
+.center-object {
+	display: block;
+	margin: 0 auto;
+}
+
 .grid-bottom .unit {
   vertical-align: bottom;
 }
