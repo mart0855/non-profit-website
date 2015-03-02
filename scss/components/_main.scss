@@ -265,9 +265,9 @@
 }
 
 .donate-button {
-	-moz-box-sizing:    border-box;
+	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	box-sizing:         border-box;
+	box-sizing: border-box;
 	margin: 0;
 	display: inline-block;
 	float: left;
@@ -290,6 +290,26 @@
 		text-align: center;
 		vertical-align: middle;
 		@include ease(all, 200ms, ease-out);
+	}
+	input {
+		backgrond-color: rgba(0,0,0,0);
+		height: 13rem;
+		border: none;
+		padding: 1.5rem;
+		font-size: 4rem;
+		font-weight: 300;
+	}
+	::-webkit-input-placeholder {
+		color: $dark-grey;
+		font-size: 4rem;
+		font-weight: 300;
+		text-align: center;
+	}
+	::-moz-input-placeholder { 
+		color: red;
+	}
+	::-ms-input-placeholder {
+		color: red;
 	}
 	&:hover {
 		h3 {

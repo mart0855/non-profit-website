@@ -1349,9 +1349,29 @@ tr:nth-child(even) {
     vertical-align: middle;
     transition: all 200ms ease-out; }
   /* line 294, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  .donate-button input {
+    backgrond-color: rgba(0, 0, 0, 0);
+    height: 13rem;
+    border: none;
+    padding: 1.5rem;
+    font-size: 4rem;
+    font-weight: 300; }
+  /* line 302, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  .donate-button ::-webkit-input-placeholder {
+    color: #2b2b2b;
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center; }
+  /* line 308, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  .donate-button ::-moz-input-placeholder {
+    color: red; }
+  /* line 311, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  .donate-button ::-ms-input-placeholder {
+    color: red; }
+  /* line 314, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
   .donate-button:hover {
     background: #6B8E23; }
-    /* line 295, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 315, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
     .donate-button:hover h3 {
       color: #f5f5f5;
       -webkit-transform: translateY(-5px);
@@ -1359,7 +1379,7 @@ tr:nth-child(even) {
               transform: translateY(-5px);
       font-size: 2.5rem;
       font-weight: 700; }
-    /* line 301, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 321, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
     .donate-button:hover p {
       color: #f5f5f5;
       -webkit-transform: translateY(105px);
