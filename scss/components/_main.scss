@@ -274,6 +274,7 @@
 	position: relative;
 	height: 13rem;
 	overflow: hidden;
+	background-color: #f7f7f7; 
 	@include ease(all, 250ms, linear);
 	h3 {
 		width: 100%;
@@ -292,24 +293,47 @@
 		@include ease(all, 200ms, ease-out);
 	}
 	input {
-		backgrond-color: rgba(0,0,0,0);
 		height: 13rem;
 		border: none;
 		padding: 1.5rem;
 		font-size: 4rem;
 		font-weight: 300;
 	}
-	::-webkit-input-placeholder {
+	input[type="text"] {
+		display: block;
+		margin: 0;
+		width: 100%;
 		color: $dark-grey;
+		font-family: 'Roboto', sans-serif;
 		font-size: 4rem;
-		font-weight: 300;
+		font-weight: 100;
+		text-align: right;			
+		&:focus {
+			outline: 1px solid $green;
+			color: $green;
+		}
+	}	
+	::-webkit-input-placeholder {
+		backgrond-color: #f7f7f7;
+		color: $dark-grey;
+		font-family: 'Roboto', sans-serif;
+		font-size: 4rem;
+		font-weight: 100;
 		text-align: center;
 	}
 	::-moz-input-placeholder { 
-		color: red;
+		color: $dark-grey;
+		font-family: 'Roboto', sans-serif;
+		font-size: 4rem;
+		font-weight: 100;
+		text-align: center;
 	}
 	::-ms-input-placeholder {
-		color: red;
+		color: $dark-grey;
+		font-family: 'Roboto', sans-serif;
+		font-size: 4rem;
+		font-weight: 100;
+		text-align: center;
 	}
 	&:hover {
 		h3 {
@@ -322,6 +346,6 @@
 			color: $light-grey;
 			transform: translateY(105px);
 		}
-	background: #6B8E23;
+	background: $green;
 	}
 }
