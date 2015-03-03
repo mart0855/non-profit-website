@@ -267,6 +267,11 @@
 
 /* — — — — DONATIONS — — — — */
 
+.wrap {
+	display:block;
+	overflow: hidden;
+}
+
 .donations {
 	clear: both;
 	display: block;
@@ -308,6 +313,15 @@
 		padding: 1.5rem;
 		font-size: 4rem;
 		font-weight: 300;
+		margin: 0;
+	}
+	input[type="checkbox"] {
+		opacity: 1;
+		vertical-align: bottom;
+		background-color: red;
+	}
+	input:checked {
+		color: red;
 	}
 	input[type="text"] {
 		display: block;
@@ -321,7 +335,7 @@
 		text-align: right;			
 		&:focus {
 			outline: 1px solid $green;
-		}
+		}		
 	}	
 	::-webkit-input-placeholder {
 		color: #A1A1A1;
