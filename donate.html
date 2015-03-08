@@ -12,37 +12,85 @@ meta-keywords: about, work, environmental, education forest, american, america, 
 	<p>100% of your contribution goes towards our programs. <em>Nothing goes to administration or overhead.</em></p>
 </div>
 
-<div class="unit-xs-1 unit-s-1 unit-m-3-5 unit-l-3-4 unit-xl-3-4 unit-xxl-5-7 center-object donations">
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button">
-		<h3>$25</h3>
-		<p><strong>94 acres</strong> of Sustainably Managed Forests <br />
-		Environmental Education for <strong>3 students</strong>.</p>
+<div class="unit-xs-1 unit-s-1 unit-m-3-5 unit-l-3-4 unit-xl-3-4 unit-xxl-5-7 center-object wrap">
+	<form>
+		<fieldset>
+			<label for="donate25" class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button wrap">	
+				<h3>$25</h3>
+				<p><strong>94 acres</strong> of Sustainably Managed Forests <br />
+				Environmental Education for <strong>3 students</strong>.</p>
+				<input type="radio"  id="donate25" value="25" name ="amount" class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 unit-xxl-1 donate-button">
+			</label>
+			<label for="donate50" class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button wrap">	
+				<h3>$50</h3>
+				<p><strong>189 acres</strong> of Sustainably Managed Forests <br />
+				Environmental Education for <strong>7 students</strong>.</p>
+				<input type="radio" id="donate50" value="50" name ="amount" class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 unit-xxl-1 donate-button">
+			</label>
+			<label for="donate100" class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button wrap">	
+				<h3>$100</h3>
+				<p><strong>378 acres</strong> of Sustainably Managed Forests <br />
+				Environmental Education for <strong>15 students</strong>.</p>
+				<input type="radio" id="donate100" value="100" name ="amount" class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 unit-xxl-1 donate-button">
+			</label>
+			<label for="donate250" class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button wrap">	
+				<h3>$250</h3>
+				<p><strong>944 acres</strong> of Sustainably Managed Forests <br />
+				Environmental Education for <strong>36 students</strong>.</p>
+				<input type="radio" id="donate250" value="250" name ="amount" class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 unit-xxl-1 donate-button">
+			</label>
+			<label for="donate500" class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button wrap">	
+				<h3>$500</h3>
+				<p><strong>1889 acres</strong> of Sustainably Managed Forests <br />
+				Environmental Education for <strong>73 students</strong>.</p>
+				<input type="radio" id="donate500" value="500" name ="amount" class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 unit-xxl-1 donate-button">
+			</label>
+			<label for="donatesomething" class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button wrap">
+				<input type="radio" id="donatemore" name ="amount" class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 unit-xxl-1 donate-button">
+				<input type="number" id="donatesomething" min="10" max="90000000" name="amount" placeholder="$ Amount" class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 unit-xxl-1 donate-amount">			
+			</label>
+		</fieldset>
+	</form>
+</div>
+
+<div class="unit-xs-1 unit-s-1 unit-m-3-5 unit-l-3-4 unit-xl-3-4 unit-xxl-5-7 center-object mobile">
+	<h2>Payment Information</h2>
+	<p>When you give to the American Forest Foundation, you are ensuring a healthy future for our nation's forests and educating the next generation of Americans about the environmental challenges they will face.</p>
+	<h2>Dedicate your Donation</h2>
+	<p>This is <em>optional</em>, but if you have a special purpose for your donation, please let us know.</p>
+	<form action="#" method="post" class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 unit-xxl-1 wrap center-object">
+    <div class="dedication unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3 unit-xl-1-3 unit-xxl-1-3 wrap"><label for="firstname">First Name: </label><input type="text"  id="firstname" placeholder="First Name"/></div>
+    <div class="dedication unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3 unit-xl-1-3 unit-xxl-1-3 wrap"><label for="lastname">Last Name: </label><input type="text"  id="lastname" placeholder="Last Name"/></div>
+    <div class="dedication unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3 unit-xl-1-3 unit-xxl-1-3 wrap"><label for="email">E-Mail: </label><input type="email" placeholder="example@provider.com"/></div>
+    <label for="message">Message: </label><textarea id="message" placeholder="In honor of &hellip;" rows="4"></textarea>
+	</form>
+
+	<h2>Giving Option</h2>
+	<form>
+		<fieldset>
+			<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 info-box wrap">
+			<p>Your donation is securely processed by our nonprofit partner, Network for Good, with a 3% transaction fee to cover credit card fees, bank fees, and other processing costs. Please consider chipping in an additional 3% so 100% of your donation amount goes to us.</p>
+			</div>
+			<label for="givefull" class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button wrap">	
+				<h3>100%</h3>
+				<p>Donate 100% - Add 3% so that 100% of the donation goes to American Forest Foundation.</p>
+				<input type="radio" id="givefull" value="variable" name ="amount" class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 unit-xxl-1 donate-button">
+			</label>
+			<label for="givemost" class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button wrap">	
+				<h3>97%</h3>
+				<p>Donate 97% - I understand Network for Good will deduct 3% to cover transaction costs.</p>
+				<input type="radio" id="givemost" value="variable" name ="amount" class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 unit-xxl-1 donate-button">
+			</label>
+		</fieldset>
+	</form>
+	
+	<div class="unit-xs-1 unit-s-1 unit-m-4-5 unit-l-3-4 unit-xl-3-4 unit-xxl-5-7 center-object mobile">
+		<h2><a href="#" class="gigantor-donate-button">Proceed to Donate</a></h2>
 	</div>
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button">
-		<h3>$50</h3>
-		<p><strong>189 acres</strong> of Sustainably Managed Forests <br />
-		Environmental Education for <strong>7 students</strong>.</p>
-	</div>
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button">
-		<h3>$100</h3>
-		<p><strong>378 acres</strong> of Sustainably Managed Forests <br />
-		Environmental Education for <strong>15 students</strong>.</p>
-	</div>
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button">
-		<h3>$250</h3>
-		<p><strong>944 acres</strong> of Sustainably Managed Forests <br />
-		Environmental Education for <strong>36 students</strong>.</p>
-	</div>
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button">
-		<h3>$500</h3>
-		<p><strong>1889 acres</strong> of Sustainably Managed Forests <br />
-		Environmental Education for <strong>73 students</strong>.</p>
-	</div>
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-3 unit-xxl-1-3 donate-button">
-		<form class="">
-			<fieldset>		
-				<input type="donate" placeholder="Your Amount" class="unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 unit-xxl-1 donate-amount">
-			</fieldset>
-		</form>	
-	</div>
+	
+	
+	<small>American Forest Foundation has partnered with <a href="#">Network for Good</a> to securely process your online credit card payment via Network for Good (tax ID 68-0480736). This transaction will appear on your credit card statement as "Network for Good." This transaction is subject to Network for Good's <a href="#">Privacy, Security &amp; Disclosure Statement</a>.</small>
+	
+	    <input type="submit" value="Send"/>
+
 </div>

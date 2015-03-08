@@ -1324,12 +1324,17 @@ tr:nth-child(even) {
 
 /* — — — — DONATIONS — — — — */
 /* line 270, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.wrap {
+  display: block;
+  overflow: hidden; }
+
+/* line 275, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .donations {
   clear: both;
   display: block;
   overflow: hidden; }
 
-/* line 276, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 281, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .donate-button {
   box-sizing: border-box;
   margin: 0;
@@ -1338,8 +1343,9 @@ tr:nth-child(even) {
   position: relative;
   height: 13rem;
   overflow: hidden;
+  background-color: #f7f7f7;
   transition: all 250ms linear; }
-  /* line 287, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 293, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button h3 {
     width: 100%;
     text-align: center;
@@ -1349,38 +1355,120 @@ tr:nth-child(even) {
     position: absolute;
     top: 27.5%;
     transition: all 150ms ease-in; }
-  /* line 297, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 303, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button p {
     -webkit-transform: translateY(210px);
         -ms-transform: translateY(210px);
             transform: translateY(210px);
     text-align: center;
     vertical-align: middle;
-    transition: all 200ms ease-out; }
-  /* line 303, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    transition: all 200ms ease-out;
+    opacity: 0; }
+  /* line 310, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button input {
-    backgrond-color: rgba(0, 0, 0, 0);
     height: 13rem;
     border: none;
     padding: 1.5rem;
     font-size: 4rem;
-    font-weight: 300; }
-  /* line 311, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
-  .donate-button ::-webkit-input-placeholder {
-    color: #2b2b2b;
-    font-size: 4rem;
     font-weight: 300;
+    margin: 0; }
+  /* line 318, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .donate-button input[type="number"] {
+    display: block;
+    margin: 0;
+    width: 100%;
+    background-color: #f7f7f7;
+    color: #2b2b2b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: right; }
+    /* line 328, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    .donate-button input[type="number"]:focus {
+      outline: 1px solid #6B8E23; }
+  /* line 332, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .donate-button input[type=radio] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    /* pushes off radio button */
+    width: 100%;
+    display: block;
+    margin-right: 20px;
+    overflow: visible
+    /* HOW DOES THIS EVEN FIX IT? BUT IT WORKS?! */ }
+  /* line 342, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .donate-button input[type=radio]:checked {
+    opacity: 1;
+    transition: all 150ms ease-in;
+    -webkit-transform: translateY(9.75rem);
+        -ms-transform: translateY(9.75rem);
+            transform: translateY(9.75rem);
+    height: 3.25rem; }
+  /* line 349, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .donate-button input[type=radio]:checked:before {
+    content: 'Selected';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 20px;
+    /*compensates from being moved left */
+    display: block;
+    padding: 0 0 4rem 25%;
+    width: 100%;
+    background-color: #77c951;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #f5f5f5;
+    font-size: 1.75rem;
+    line-height: 3.25rem
+    /* to compensate for the height of the box */ }
+    @media only screen and (max-width: 25em) {
+      .donate-button input[type=radio]:checked:before {
+        /* — — — — — XSMALL Screens — — — — — */
+        padding: 0 0 0rem 31%; } }
+    @media only screen and (min-width: 25em) {
+      .donate-button input[type=radio]:checked:before {
+        /* — — — — — SMALL to LARGE Screens — — — — — */
+        padding: 0 0 0rem 38%; } }
+    @media only screen and (min-width: 90em) {
+      .donate-button input[type=radio]:checked:before {
+        /* — — — — —XLARGE Screens — — — — — */
+        padding: 0 0 0rem 36.5%; } }
+  /* line 374, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .donate-button ::-webkit-input-placeholder {
+    color: #A1A1A1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
     text-align: center; }
-  /* line 317, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
-  .donate-button ::-moz-input-placeholder {
-    color: red; }
-  /* line 320, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
-  .donate-button ::-ms-input-placeholder {
-    color: red; }
-  /* line 323, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 381, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .donate-button ::-moz-placeholder {
+    color: #A1A1A1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center; }
+  /* line 388, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .donate-button :-moz-placeholder {
+    color: #A1A1A1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center; }
+  /* line 395, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .donate-button :-ms-input-placeholder {
+    color: #A1A1A1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center; }
+  /* line 402, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button:hover {
+    cursor: pointer;
     background: #6B8E23; }
-    /* line 324, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 404, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .donate-button:hover h3 {
       color: #f5f5f5;
       -webkit-transform: translateY(-5px);
@@ -1388,9 +1476,103 @@ tr:nth-child(even) {
               transform: translateY(-5px);
       font-size: 2.5rem;
       font-weight: 700; }
-    /* line 330, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 410, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .donate-button:hover p {
       color: #f5f5f5;
       -webkit-transform: translateY(105px);
           -ms-transform: translateY(105px);
-              transform: translateY(105px); }
+              transform: translateY(105px);
+      opacity: 1; }
+
+/* line 419, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+textarea {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: #f5f5f5;
+  border: none; }
+
+/* line 430, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.dedication {
+  position: relative;
+  height: 3.75rem;
+  float: left; }
+  /* line 434, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .dedication label {
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 2rem; }
+  /* line 442, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .dedication input[type="text"], .dedication input[type="email"] {
+    float: right;
+    height: 2rem;
+    border: none;
+    width: 100%;
+    overflow: auto;
+    padding-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: #f5f5f5; }
+    /* line 453, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    .dedication input[type="text"]:focus, .dedication input[type="email"]:focus {
+      outline: 1px solid #6B8E23; }
+  @media only screen and (min-width: 25em) {
+    .dedication {
+      /* — — — — — Up to SMALL Screens — — — — — */ }
+      /* line 458, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+      .dedication label {
+        width: 35%; }
+      /* line 462, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+      .dedication input[type="text"], .dedication input[type="email"] {
+        width: 65%; } }
+
+@media only screen and (max-width: 25em) {
+  /* — — — — — Up to SMALL Screens — — — — — */
+  /* line 469, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .mobile {
+    width: 90%; }
+ }
+
+@media only screen and (max-width: 38em) {
+  /* — — — — — Up to SMALL Screens — — — — — */
+  /* line 475, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .mobile {
+    width: 95%; }
+ }
+
+/* line 480, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.info-box {
+  display: inline-block;
+  float: left;
+  height: 13rem;
+  text-align: center;
+  padding: 1.75rem; }
+
+/* line 488, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.gigantor-donate-button {
+  transition: all 200ms ease-in;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10%;
+  text-align: center;
+  background-color: #6B8E23;
+  height: 13rem; }
+  /* line 489, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .gigantor-donate-button a, .gigantor-donate-button:visited, .gigantor-donate-button:link {
+    color: #f5f5f5;
+    text-decoration: none;
+    border: none;
+    border-bottom: 0px solid red;
+    font-weight: 300; }
+  /* line 503, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .gigantor-donate-button:hover, .gigantor-donate-button:focus, .gigantor-donate-button:active {
+    color: #6B8E23;
+    background-color: #bdc4a7;
+    text-shadow: 1px 1px 0px #f5f5f5;
+    font-weight: 700; }
