@@ -227,18 +227,30 @@
 
 	.top-nav ul li:nth-child(6),
 	.top-nav ul li:nth-child(7) {
-		width: 50%;
+		width: 35%;
 		margin: .25em 0;
 			a {
 				margin: 0;
 				padding: .35em 0;
+				font-size: .8em;
 			}
 		}
 
 	.top-nav ul li:nth-child(6) {
 		border-right: 2px solid #ffffff;
 	}
+}
+
+@media only screen and (min-width: 400px) {
+	.top-nav ul li:nth-child(6) {
+		border-right: 2px solid #ffffff;
+		padding-left: 15%;
+	}
+	.top-nav ul li:nth-child(7) {
+		padding-right: 15%;
+	}
 
 }
+
 
 

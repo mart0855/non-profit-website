@@ -1188,14 +1188,26 @@ tr:nth-child(even) {
 
   /* line 229, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .top-nav ul li:nth-child(6), .top-nav ul li:nth-child(7) {
-    width: 50%;
+    width: 35%;
     margin: 0.25em 0; }
     /* line 232, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .top-nav ul li:nth-child(6) a, .top-nav ul li:nth-child(7) a {
       margin: 0;
-      padding: 0.35em 0; }
+      padding: 0.35em 0;
+      font-size: 0.8em; }
 
-  /* line 238, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 239, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .top-nav ul li:nth-child(6) {
     border-right: 2px solid #ffffff; }
+ }
+
+@media only screen and (min-width: 400px) {
+  /* line 245, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .top-nav ul li:nth-child(6) {
+    border-right: 2px solid #ffffff;
+    padding-left: 15%; }
+
+  /* line 249, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .top-nav ul li:nth-child(7) {
+    padding-right: 15%; }
  }
