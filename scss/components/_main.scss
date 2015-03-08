@@ -338,6 +338,9 @@
 	}
 	input[type=radio]:checked {
 		opacity: 1;
+		input {
+			font-size: 1rem;
+		}
 	}
 	input[type=radio]:checked:before {
 		content: 'Selected';
@@ -353,6 +356,16 @@
 		font-family: 'Roboto', sans-serif;
 		font-weight: 100;
 		color: $light-grey;
+		@media only screen and (max-width: 25em) { /* — — — — — SMALL to LARGE Screens — — — — — */
+			font-size: 2.5rem;
+			padding: 4rem 0 0 25%;
+		}
+		@media only screen and (min-width: 25em) { /* — — — — — SMALL to LARGE Screens — — — — — */
+			padding: 4rem 0 0 25%;
+		}
+		@media only screen and (min-width: 90em) { /* — — — — —XLARGE Screens — — — — — */
+			padding: 4rem 0 0 17.5%;
+		}
 	}
 	::-webkit-input-placeholder {
 		color: #A1A1A1;
