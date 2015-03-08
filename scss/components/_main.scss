@@ -224,6 +224,21 @@
 			}
 		}
 	}
+
+	.top-nav ul li:nth-child(6),
+	.top-nav ul li:nth-child(7) {
+		width: 50%;
+		margin: .25em 0;
+			a {
+				margin: 0;
+				padding: .35em 0;
+			}
+		}
+
+	.top-nav ul li:nth-child(6) {
+		border-right: 2px solid #ffffff;
+	}
+
 }
 
 

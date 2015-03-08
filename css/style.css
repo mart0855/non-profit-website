@@ -1185,4 +1185,17 @@ tr:nth-child(even) {
       /* line 222, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
       .bottom-nav ul a:hover {
         opacity: 0.6; }
+
+  /* line 229, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .top-nav ul li:nth-child(6), .top-nav ul li:nth-child(7) {
+    width: 50%;
+    margin: 0.25em 0; }
+    /* line 232, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    .top-nav ul li:nth-child(6) a, .top-nav ul li:nth-child(7) a {
+      margin: 0;
+      padding: 0.35em 0; }
+
+  /* line 238, /Users/Mark/Documents/Mark/Year 3:3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .top-nav ul li:nth-child(6) {
+    border-right: 2px solid #ffffff; }
  }
