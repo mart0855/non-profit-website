@@ -1545,3 +1545,11 @@ textarea {
   .mobile {
     width: 95%; }
  }
+
+/* line 480, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+.info-box {
+  display: inline-block;
+  float: left;
+  height: 13rem;
+  text-align: center;
+  padding: 1.75rem; }
