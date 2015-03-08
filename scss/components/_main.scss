@@ -484,3 +484,26 @@ textarea {
 	text-align: center;
 	padding: 1.75rem;
 }
+
+.gigantor-donate-button {
+	a, &:visited, &:link {
+	color: $light-grey;	
+	text-decoration: none;
+	border: none;
+	border-bottom: 0px solid red;
+	font-weight: 300;
+	}
+	@include ease(all, 200ms, ease-in);
+	display: block;
+	margin: 0 auto;
+	padding-top: 10%;
+	text-align: center;
+	background-color: $green;
+	height: 13rem;
+	&:hover, &:focus, &:active {
+		color: $green;
+		background-color: $light-green;
+		text-shadow: 1px 1px 0px $light-grey;
+		font-weight: 700;
+	}
+}

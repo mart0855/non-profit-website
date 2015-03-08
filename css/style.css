@@ -1553,3 +1553,26 @@ textarea {
   height: 13rem;
   text-align: center;
   padding: 1.75rem; }
+
+/* line 488, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+.gigantor-donate-button {
+  transition: all 200ms ease-in;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10%;
+  text-align: center;
+  background-color: #6B8E23;
+  height: 13rem; }
+  /* line 489, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  .gigantor-donate-button a, .gigantor-donate-button:visited, .gigantor-donate-button:link {
+    color: #f5f5f5;
+    text-decoration: none;
+    border: none;
+    border-bottom: 0px solid red;
+    font-weight: 300; }
+  /* line 503, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  .gigantor-donate-button:hover, .gigantor-donate-button:focus, .gigantor-donate-button:active {
+    color: #6B8E23;
+    background-color: #bdc4a7;
+    text-shadow: 1px 1px 0px #f5f5f5;
+    font-weight: 700; }
