@@ -586,3 +586,78 @@ textarea {
 	}
 }
 
+
+/* — — — — DONATIONS — — — — */
+
+.boxcontainer {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 3rem;
+}
+
+.newsbox * {
+		@include ease(all, 200ms, ease-in);
+}
+
+.newsbox {
+	display: block;
+	position: relative;
+	border: none;
+	overflow: hidden;
+	float: left;
+	font-size: 0; 
+	height: 19rem;
+	figcaption {
+		position: absolute;
+		top: 13rem;
+		font-size: 1.125rem;
+		color: #666666;
+		height: 19rem;
+		border-top: 3px solid $green;
+		p {
+			color: #505050;
+			font-size: .8rem;
+			opacity: 0;
+		}
+	}
+	small {
+		height: 100%;
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	.readmore {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		overflow: hidden;
+		margin: 1.414em 0 0;
+		height: 2.5rem;
+		width: 100%;
+		padding-left: 1rem;
+		background-color: $light-grey;
+		line-height: 2.5rem;
+		font-size: .95rem;
+		font-weight: 400;			
+		color: #228B22;
+	}
+	&:hover, &:focus, &:active {
+		border-bottom: 3px solid rgba(119,201,81,1);
+		figcaption {
+			background-color: $light-grey;
+			border-top: none;			
+			height: 19.5rem;
+			top: 0;
+			p {
+				opacity: 1;			
+			}
+		}
+		img {
+			opacity: 0;
+		}
+		small {
+			opacity: 1;
+			transform: translateY(0px);
+			background-color: #ECF7E8;
+		}
+	}
+}
