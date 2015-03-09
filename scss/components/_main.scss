@@ -179,7 +179,7 @@
 	text-align: center;
 	display:block;
 			li {
-			font-size: 1.25rem;
+			font-size: 1rem;
 			letter-spacing: 1px;
 			border-right: 2px solid $black;
 			&:last-child {
@@ -202,7 +202,41 @@
 		}
 }
 
+// Log In & Register
+
+.top-nav ul li:nth-child(6),
+.top-nav ul li:nth-child(7) {
+	display: none;
+}
+
+.lr-btn {
+	position: absolute;
+	top: 30px;
+	left: calc(100vw - 11em);
+	}
+
+.lr-btn a {
+	color: #ffffff;
+	border-bottom: none;
+	letter-spacing: 1px;
+}
+
+.lr-btn li:first-child a {
+	border-right:2px solid #ffffff;
+	margin-right: 1em;
+	padding-right: 1em;
+}
+
+.lr-btn a:hover {
+	opacity: .6;
+}
+
+
+
 @media only screen and (max-width: 600px) {
+	.lr-btn {
+		display: none;
+	}
 
 	.top-nav ul li:nth-child(6) {
      border-right: 2px solid #ffffff;
@@ -210,6 +244,7 @@
 
 	.top-nav ul li:nth-child(6),
 	.top-nav ul li:nth-child(7) {
+		display: inline-block;
 		width: 35%;
 		margin: 0.25em 0;
 	}
@@ -221,6 +256,13 @@
 		font-size: 0.8em;
 	}
 
+}
+
+@media only screen and (min-width: 400px) {
+	.top-nav ul li:nth-child(6),
+	.top-nav ul li:nth-child(7) {
+		width: 25%;
+	}
 }
 
 
