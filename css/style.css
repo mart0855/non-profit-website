@@ -1581,9 +1581,9 @@ textarea {
     padding-top: 5rem; }
   /* line 512, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
   .gigantor-donate-button:hover, .gigantor-donate-button:focus, .gigantor-donate-button:active {
-    color: #6B8E23;
-    background-color: #bdc4a7;
-    text-shadow: 1px 1px 0px #f5f5f5;
+    color: #f5f5f5;
+    background-color: #77c951;
+    text-shadow: 1px 1px 0px #86907a;
     font-weight: 700; }
   @media only screen and (max-width: 25em) {
     .gigantor-donate-button {

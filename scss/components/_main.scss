@@ -510,9 +510,9 @@ textarea {
 	background-color: $green;
 	height: 13rem;
 	&:hover, &:focus, &:active {
-		color: $green;
-		background-color: $light-green;
-		text-shadow: 1px 1px 0px $light-grey;
+		color: $light-grey;
+		background-color: rgba(119,201,81,1);
+		text-shadow: 1px 1px 0px $dark-green;
 		font-weight: 700;
 	}
 	@media only screen and (max-width: 25em) { /* — — — — — Up to SMALL Screens — — — — — */
