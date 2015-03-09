@@ -88,6 +88,7 @@ exitLr.click(function(e){
 
 $(document).keyup(function(e) {
     if (e.keyCode == 27) { // esc keycode
+    regWrppr.attr('data-state', 'collapse');
     lrWrppr.attr('data-state', 'collapse');
 		topNav.attr('data-state','collapse');
 		siteWrapper.removeClass('no-scroll');
