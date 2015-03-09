@@ -386,6 +386,7 @@ input:focus {
 		font-size: 0.8em;
 	}
 
+	.register-wrapper,
 	.log-reg-wrapper {
 		display:none;
 		position: fixed;
@@ -401,6 +402,11 @@ input:focus {
 		width: 100%;
 		padding: 10em 10%;
 		border-radius: 15px;
+		}
+
+		.register-form {
+			width: 100%;
+			padding: 10em 2%;
 		}
 
 	.log-reg-form input {
@@ -472,10 +478,20 @@ input:focus {
 	}
 }
 
+@media only screen and (min-width: 601px) {
+	.register-wrapper {
+		padding: 18% 18%;
+		}
+}
+
 
 @media only screen and (min-width: 700px) {
 	.log-reg-wrapper {
 		padding: 27% 28%;
+	}
+
+	.register-wrapper {
+	padding: 18% 20%;
 	}
 }
 
@@ -483,17 +499,27 @@ input:focus {
 	.log-reg-wrapper {
 		padding: 22% 32%;
 	}
+	.register-wrapper {
+		padding: 16% 24%;
+	}
+
 }
 
 @media only screen and (min-width: 900px) {
 	.log-reg-wrapper {
 		padding: 20% 34%;
 	}
+	.register-wrapper {
+		padding: 14% 26%;
+	}
 }
 
 @media only screen and (min-width: 1000px) {
 	.log-reg-wrapper {
 		padding: 17% 36%;
+	}
+	.register-wrapper {
+		padding: 12% 28%;
 	}
 }
 
