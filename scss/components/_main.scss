@@ -179,7 +179,7 @@
 	text-align: center;
 	display:block;
 			li {
-			font-size: 1.25rem;
+			font-size: 1rem;
 			letter-spacing: 1px;
 			border-right: 2px solid $black;
 			&:last-child {
@@ -201,6 +201,70 @@
 			}
 		}
 }
+
+// Log In & Register
+
+.top-nav ul li:nth-child(6),
+.top-nav ul li:nth-child(7) {
+	display: none;
+}
+
+.lr-btn {
+	position: absolute;
+	top: 30px;
+	left: calc(100vw - 11em);
+	}
+
+.lr-btn a {
+	color: #ffffff;
+	border-bottom: none;
+	letter-spacing: 1px;
+}
+
+.lr-btn li:first-child a {
+	border-right:2px solid #ffffff;
+	margin-right: 1em;
+	padding-right: 1em;
+}
+
+.lr-btn a:hover {
+	opacity: .6;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.lr-btn {
+		display: none;
+	}
+
+	.top-nav ul li:nth-child(6) {
+     border-right: 2px solid #ffffff;
+   }
+
+	.top-nav ul li:nth-child(6),
+	.top-nav ul li:nth-child(7) {
+		display: inline-block;
+		width: 35%;
+		margin: 0.25em 0;
+	}
+
+	.top-nav ul li:nth-child(6) a,
+	.top-nav ul li:nth-child(7) a {
+		margin: 0;
+		padding: 0.35em 0;
+		font-size: 0.8em;
+	}
+
+}
+
+@media only screen and (min-width: 400px) {
+	.top-nav ul li:nth-child(6),
+	.top-nav ul li:nth-child(7) {
+		width: 25%;
+	}
+}
+
 
 // Bottom Navigation
 
@@ -288,7 +352,7 @@
 	position: relative;
 	height: 13rem;
 	overflow: hidden;
-	background-color: #f7f7f7; 
+	background-color: #f7f7f7;
 	@include ease(all, 250ms, linear);
 	h3 {
 		width: 100%;
@@ -324,11 +388,11 @@
 		font-family: 'Roboto', sans-serif;
 		font-size: 4rem;
 		font-weight: 100;
-		text-align: right;			
+		text-align: right;
 		&:focus {
 			outline: 1px solid $green;
 		}
-	}	
+	}
 	input[type=radio] {
 		opacity: 0;
 		position: absolute;
@@ -344,7 +408,7 @@
 		@include ease(all, 150ms, ease-in);
 		transform: translateY(9.75rem);
 		height: 3.25rem;
-	
+
 	}
 	input[type=radio]:checked:before {
 		content: 'Selected';
@@ -363,7 +427,7 @@
 		line-height: 3.25rem; /* to compensate for the height of the box */
 		@media only screen and (max-width: 25em) { /* — — — — — XSMALL Screens — — — — — */
 			padding: 0 0 0rem 31%;
-		}		
+		}
 		@media only screen and (min-width: 25em) { /* — — — — — SMALL to LARGE Screens — — — — — */
 			padding: 0 0 0rem 38%;
 		}
@@ -378,14 +442,14 @@
 		font-weight: 100;
 		text-align: center;
 	}
-	::-moz-placeholder { 
+	::-moz-placeholder {
 		color: #A1A1A1;
 		font-family: 'Roboto', sans-serif;
 		font-size: 4rem;
 		font-weight: 100;
 		text-align: center;
 	}
-	:-moz-placeholder { 
+	:-moz-placeholder {
 		color: #A1A1A1;
 		font-family: 'Roboto', sans-serif;
 		font-size: 4rem;
@@ -487,7 +551,7 @@ textarea {
 
 .gigantor-donate-button {
 	a, &:visited, &:link {
-	color: $light-grey;	
+	color: $light-grey;
 	text-decoration: none;
 	border: none;
 	border-bottom: 0px solid red;
