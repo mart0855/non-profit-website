@@ -242,6 +242,7 @@ html {
 	opacity: .6;
 }
 
+.register-wrapper,
 .log-reg-wrapper {
 	display:none;
 	position: fixed;
@@ -253,6 +254,7 @@ html {
 	padding: 30% 20%;
 }
 
+.register-form,
 .log-reg-form {
 	padding: 2em 3em;
 	background-color: #ffffff;
@@ -260,6 +262,7 @@ html {
 	width: 100%;
 }
 
+.register-form h2,
 .log-reg-form h2 {
 	margin: 0 0 .5em 0;
 	font-weight:300;
@@ -267,16 +270,23 @@ html {
 	font-size: 2em;
 }
 
+.register-form a:hover,
 .log-reg-form a:hover {
 	opacity: .5;
 }
 
+.register-form input[placeholder="Name"],
+.register-form input[placeholder="Address"],
+.register-form input[placeholder="Email Address"],
+.register-form input[placeholder="password"],
+.register-form input[placeholder="confirm password"],
 .log-reg-form input[placeholder="Email Address"],
 .log-reg-form input[placeholder="password"] {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
+.register-form input,
 .log-reg-form input {
 	border: 2px solid rgba($dark-grey, .6);
 	width: 100%;
@@ -284,13 +294,18 @@ html {
 	border-radius: 5px;
 }
 
+.register-form a,
 .log-reg-form a {
 	border-bottom: 1px solid $light-green;
 	color: $light-green;
 	font-size: .80em;
 }
 
-
+.register-form input[placeholder="Name"]:focus,
+.register-form input[placeholder="Address"]:focus,
+.register-form input[placeholder="Email Address"]:focus,
+.register-form input[placeholder="password"]:focus,
+.register-form input[placeholder="confirm password"]:focus,
 .log-reg-form input[type="text"]:focus,
 .log-reg-form input[type="password"]:focus {
 	border: 2px solid rgba($light-green, 1);
@@ -301,6 +316,7 @@ input:focus {
 	outline: -webkit-focus-ring-color auto 0px;
 }
 
+.register-wrapper[data-state="expand"],
 .log-reg-wrapper[data-state="expand"] {
 	display: block;
 	z-index: 12;
