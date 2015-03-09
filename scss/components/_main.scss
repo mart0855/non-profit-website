@@ -389,8 +389,10 @@
 		font-size: 4rem;
 		font-weight: 100;
 		text-align: right;
-		&:focus {
+		&:focus, &:active {
 			outline: 1px solid $green;
+			border: none;
+		background-color: rgba(248,255,242,1.00);
 		}
 	}
 	input[type=radio] {
@@ -489,6 +491,11 @@ textarea {
 	margin-top: .5rem;
 	background-color: $light-grey;
 	border: none;
+	&:focus, &:active {
+		outline: 1px solid $green;
+		border: none;
+		background-color: rgba(248,255,242,1.00);
+	}
 }
 
 .dedication {
@@ -514,8 +521,10 @@ textarea {
 		font-size: 1rem;
 		font-weight: 300;
 		background-color: $light-grey;
-		&:focus {
+		&:focus, &:active {
 			outline: 1px solid $green;
+			border: none;
+			background-color: rgba(248,255,242,1.00);
 		}
 	}
 	@media only screen and (min-width: 25em) { /* — — — — — Up to SMALL Screens — — — — — */
@@ -556,18 +565,24 @@ textarea {
 	border: none;
 	border-bottom: 0px solid red;
 	font-weight: 300;
+	padding-top: 5rem;
 	}
 	@include ease(all, 200ms, ease-in);
 	display: block;
 	margin: 0 auto;
-	padding-top: 10%;
 	text-align: center;
 	background-color: $green;
 	height: 13rem;
 	&:hover, &:focus, &:active {
-		color: $green;
-		background-color: $light-green;
-		text-shadow: 1px 1px 0px $light-grey;
+		color: $light-grey;
+		background-color: rgba(119,201,81,1);
+		text-shadow: 1px 1px 0px $dark-green;
 		font-weight: 700;
 	}
+	@media only screen and (max-width: 25em) { /* — — — — — Up to SMALL Screens — — — — — */
+		a, &:visited, &:link {
+			font-size: 1.75rem;
+		}
+	}
 }
+
