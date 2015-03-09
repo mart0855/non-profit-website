@@ -492,11 +492,11 @@ textarea {
 	border: none;
 	border-bottom: 0px solid red;
 	font-weight: 300;
+	padding-top: 5rem;
 	}
 	@include ease(all, 200ms, ease-in);
 	display: block;
 	margin: 0 auto;
-	padding-top: 10%;
 	text-align: center;
 	background-color: $green;
 	height: 13rem;
@@ -505,5 +505,10 @@ textarea {
 		background-color: $light-green;
 		text-shadow: 1px 1px 0px $light-grey;
 		font-weight: 700;
+	}
+	@media only screen and (max-width: 25em) { /* — — — — — Up to SMALL Screens — — — — — */
+		a, &:visited, &:link {
+			font-size: 1.75rem;
+		}
 	}
 }
