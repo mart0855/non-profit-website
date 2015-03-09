@@ -1654,17 +1654,17 @@ textarea {
         font-size: 1.75rem; } }
 
 /* — — — — DONATIONS — — — — */
-/* line 591, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 592, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
 .boxcontainer {
   display: block;
   overflow: hidden;
   margin-bottom: 3rem; }
 
-/* line 597, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 598, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
 .newsbox * {
   transition: all 200ms ease-in; }
 
-/* line 601, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 602, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
 .newsbox {
   display: block;
   position: relative;
@@ -1673,7 +1673,7 @@ textarea {
   float: left;
   font-size: 0;
   height: 19rem; }
-  /* line 609, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 610, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
   .newsbox figcaption {
     position: absolute;
     top: 13rem;
@@ -1681,19 +1681,19 @@ textarea {
     color: #666666;
     height: 19rem;
     border-top: 3px solid #6B8E23; }
-    /* line 616, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 617, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
     .newsbox figcaption p {
       color: #505050;
       font-size: 0.8rem;
       opacity: 0; }
-  /* line 622, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 623, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
   .newsbox small {
     height: 100%;
     opacity: 0;
     -webkit-transform: translateY(20px);
         -ms-transform: translateY(20px);
             transform: translateY(20px); }
-  /* line 627, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 628, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
   .newsbox .readmore {
     position: absolute;
     left: 0;
@@ -1708,22 +1708,22 @@ textarea {
     font-size: 0.95rem;
     font-weight: 400;
     color: #228B22; }
-  /* line 642, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 643, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
   .newsbox:hover, .newsbox:focus, .newsbox:active {
     border-bottom: 3px solid #77c951; }
-    /* line 644, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 645, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
     .newsbox:hover figcaption, .newsbox:focus figcaption, .newsbox:active figcaption {
       background-color: #f5f5f5;
       border-top: none;
       height: 19.5rem;
       top: 0; }
-      /* line 649, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+      /* line 650, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
       .newsbox:hover figcaption p, .newsbox:focus figcaption p, .newsbox:active figcaption p {
         opacity: 1; }
-    /* line 653, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 654, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
     .newsbox:hover img, .newsbox:focus img, .newsbox:active img {
       opacity: 0; }
-    /* line 656, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 657, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
     .newsbox:hover small, .newsbox:focus small, .newsbox:active small {
       opacity: 1;
       -webkit-transform: translateY(0px);
