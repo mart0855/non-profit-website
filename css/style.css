@@ -889,8 +889,8 @@ p {
 /* line 164, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
 a, a:link {
   text-decoration: none;
-  color: #228B22;
-  border-bottom: 0.1em dotted rgba(34, 139, 34, 0.55); }
+  color: #228B22
+  /* border-bottom: .1em dotted rgba(34,139,34,.55); */ }
 
 /* line 170, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
 a:visited {
