@@ -4,17 +4,13 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-body,
-html {
-	overflow: hidden;
-}
-
 .header {
 	width:100%;
 	position:relative;
 	background: url("../images/bg-placeholder.jpg") no-repeat center center;
 	background-size: cover;
 	padding: 6em 0em;
+	overflow:hidden;
 }
 
 .tag-line {
@@ -142,11 +138,10 @@ html {
 	.no-scroll {
 		overflow:hidden;
 	}
-
 	.top-nav ul {
 		display:none;
 		position: fixed;
-		opacity: 0;
+		opacity: 1;
 		background-color: $dark-grey;
 		height: 100vh;
 		width:100%;
@@ -165,18 +160,11 @@ html {
 				text-align:center;
 				border-bottom: none;
 				letter-spacing: 1px;
-				display:none;
 			}
 	}
-
-	.top-nav[data-state="expand"] ul,
-	.top-nav[data-state="expand"] ul li a {
-		opacity: .9;
-		z-index: 10;
-		display:inline-block;
-	}
-
 }
+
+
 
 // Big Screen Navigation Styling
 
@@ -184,15 +172,16 @@ html {
 	@include zero;
 	@include ease(all, 250ms, linear);
 	font-size: 0;
-	display:none;
+	display:block;
 	position: absolute;
 	bottom: 0;
 	text-align: center;
-	display:block;
+	background-color: $dark-grey;
 			li {
 			font-size: 1rem;
 			letter-spacing: 1px;
 			border-right: 2px solid $black;
+			padding: 1em 0;
 			&:last-child {
 				border-right:none;
 			}
@@ -200,17 +189,30 @@ html {
 				@include ease(all, 250ms, linear);
 				border-bottom:none;
 				color: $light-grey;
-				padding: 1em 0;
 				width:100%;
-				display:none;
-				background-color:$dark-grey;
 				opacity: .9;
-			&:hover {
-				background-color: $black;
-				opacity:1;
-				}
 			}
 		}
+}
+
+@media only screen and (max-width: 600px) {
+	.top-nav ul {
+		display:none;
+	}
+	header {
+		overflow:visible !important;
+	}
+}
+
+.top-nav[data-state="expand"] ul,
+.top-nav[data-state="expand"] ul li a {
+	opacity: .9;
+	z-index: 10;
+	display:inline-block;
+}
+
+.top-nav li:hover a {
+	opacity: .5;
 }
 
 // Log In & Register
@@ -521,10 +523,6 @@ input:focus {
 	.register-wrapper {
 		padding: 12% 28%;
 	}
-}
-
-.top-nav- ul li a {
-	display:none;
 }
 
 
