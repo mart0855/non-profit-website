@@ -4,6 +4,10 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+body,
+html {
+	overflow: hidden;
+}
 
 .header {
 	width:100%;
@@ -86,7 +90,7 @@
 		top: 1em;
 		right: 1em;
 		position:absolute;
-		z-index:1000;
+		z-index:11;
 	}
 
 	.hb-toggle span,
@@ -146,7 +150,7 @@
 		height: 100vh;
 		width:100%;
 		top:0em;
-		z-index:999;
+		z-index:0;
 			li {
 				width: 100%;
 				text-align: center;
@@ -164,6 +168,7 @@
 
 	.top-nav[data-state="expand"] ul {
 		opacity: .9;
+		z-index: 10;
 	}
 
 }
@@ -231,6 +236,109 @@
 	opacity: .6;
 }
 
+.log-reg-wrapper {
+	display:none;
+	position: fixed;
+	background-color: rgba(#222222, .8);
+	top: 0;
+	bottom: 0;
+	right:0;
+	left: 0;
+	padding: 30% 20%;
+}
+
+.log-reg-form {
+	padding: 2em 3em;
+	background-color: #ffffff;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.log-reg-form h2 {
+	margin: 0 0 .5em 0;
+	font-weight:300;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.log-reg-form a:hover {
+	opacity: .5;
+}
+
+.log-reg-form input[placeholder="Email Address"],
+.log-reg-form input[placeholder="password"] {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.log-reg-form input {
+	border: 2px solid rgba($dark-grey, .6);
+	width: 100%;
+	padding: .5em;
+	border-radius: 5px;
+}
+
+.log-reg-form a {
+	border-bottom: 1px solid $light-green;
+	color: $light-green;
+	font-size: .80em;
+}
+
+
+.log-reg-form input[type="text"]:focus,
+.log-reg-form input[type="password"]:focus {
+	border: 2px solid rgba($light-green, 1);
+}
+
+input:focus {
+	outline-offset: 0;
+	outline: -webkit-focus-ring-color auto 0px;
+}
+
+.log-reg-wrapper[data-state="expand"] {
+	display: block;
+	z-index: 12;
+}
+
+.exit-lr-wrapper {
+	position:absolute;
+	top: 1em;
+	right: 3em;
+	padding: 0.65em 0em;
+}
+
+.exit-lr span,
+.exit-lr span:before,
+.exit-lr span:after {
+  position: absolute;
+  border-radius: 1px;
+  height: 5px;
+  width: 30px;
+  display: block;
+  content: '';
+  transition: all 250ms ease-in-out;
+}
+
+.exit-lr span {
+	background-color: transparent;
+}
+
+.exit-lr span:before {
+	top:0;
+	background-color: $light-green;
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+
+}
+
+.exit-lr span:after {
+	bottom:0;
+	background-color: $light-green;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -256,6 +364,83 @@
 		font-size: 0.8em;
 	}
 
+	.log-reg-wrapper {
+		display:none;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 0 20%;
+		background-color: rgba(#fff, 1);
+	}
+
+	.log-reg-form {
+		width: 100%;
+		padding: 10em 10%;
+		border-radius: 15px;
+		}
+
+	.log-reg-form input {
+		width: 100%;
+		padding: .5em;
+		border-radius: 5px;
+	}
+
+	.log-reg-form h2 {
+		margin:0;
+		margin-bottom: .5em;
+		font-weight: 300;
+		font-size: 2em;
+		text-transform: uppercase;
+	}
+
+	.log-reg-form a {
+		border-bottom: 1px solid $light-green;
+		color: $light-green;
+		font-size: .80em;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	.log-reg-wrapper {
+		display:none;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 0 10%;
+		background-color: rgba(#fff, 1);
+	}
+
+	.log-reg-form {
+		width: 100%;
+		padding: 10em 10%;
+		border-radius: 15px;
+		}
+
+	.log-reg-form input {
+		width: 100%;
+		padding: .5em;
+		border-radius: 5px;
+	}
+
+	.log-reg-form h2 {
+		margin:0;
+		margin-bottom: .5em;
+		font-weight: 300;
+		font-size: 2em;
+		text-transform: uppercase;
+	}
+
+	.log-reg-form a {
+		border-bottom: 1px solid $light-green;
+		color: $light-green;
+		font-size: .80em;
+	}
 }
 
 @media only screen and (min-width: 400px) {
@@ -264,6 +449,32 @@
 		width: 25%;
 	}
 }
+
+
+@media only screen and (min-width: 700px) {
+	.log-reg-wrapper {
+		padding: 27% 28%;
+	}
+}
+
+@media only screen and (min-width: 850px) {
+	.log-reg-wrapper {
+		padding: 22% 32%;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.log-reg-wrapper {
+		padding: 20% 34%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.log-reg-wrapper {
+		padding: 17% 36%;
+	}
+}
+
 
 
 // Bottom Navigation

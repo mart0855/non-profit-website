@@ -1082,6 +1082,10 @@ tr:nth-child(even) {
   scale: 1; }
 
 /* line 8, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+body, html {
+  overflow: hidden; }
+
+/* line 12, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .header {
   width: 100%;
   position: relative;
@@ -1089,16 +1093,16 @@ tr:nth-child(even) {
   background-size: cover;
   padding: 6em 0em; }
 
-/* line 16, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 20, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .tag-line {
   display: block;
   letter-spacing: 0.25px; }
 
-/* line 21, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 25, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .logo-wrapper {
   margin: 0;
   padding: 0; }
-  /* line 24, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 28, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .logo-wrapper a {
     height: 110px;
     width: 100px;
@@ -1108,14 +1112,14 @@ tr:nth-child(even) {
     background: url("../images/logo.svg") no-repeat center center;
     background-size: 100px auto; }
 
-/* line 35, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 39, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .header h3 {
   text-align: center;
   margin: 0 auto;
   color: #f5f5f5;
   text-shadow: 2px 2px 2px #222222; }
 
-/* line 42, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 46, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .videoWrapper {
   position: relative;
   height: 0;
@@ -1125,7 +1129,7 @@ tr:nth-child(even) {
   padding-bottom: 56.25%
   /* 16/9 ratio */
   /*background: #000;*/ }
-  /* line 50, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 54, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .videoWrapper iframe {
     position: absolute;
     top: 0;
@@ -1134,7 +1138,7 @@ tr:nth-child(even) {
     height: 100%;
     /* @editable properties */
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); }
-  /* line 59, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 63, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .videoWrapper video {
     position: absolute;
     top: 0;
@@ -1147,12 +1151,12 @@ tr:nth-child(even) {
     background-position: 50% 50%; }
 
 @media only screen and (max-width: 600px) {
-  /* line 74, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 78, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .header h3 {
     display: block;
     visibility: hidden; }
 
-  /* line 81, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 85, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle {
     background: transparent;
     height: 26px;
@@ -1161,9 +1165,9 @@ tr:nth-child(even) {
     top: 1em;
     right: 1em;
     position: absolute;
-    z-index: 1000; }
+    z-index: 11; }
 
-  /* line 94, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 98, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle span, .hb-toggle span:before, .hb-toggle span:after {
     position: absolute;
     border-radius: 1px;
@@ -1174,39 +1178,39 @@ tr:nth-child(even) {
     content: '';
     transition: all 250ms ease-in-out; }
 
-  /* line 107, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 111, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle span:before {
     top: -10px; }
 
-  /* line 111, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 115, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle span:after {
     bottom: -10px; }
 
-  /* line 115, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 119, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle.expand span {
     background-color: transparent; }
 
-  /* line 120, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 124, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle.expand span:before, .hb-toggle.expand span:after {
     top: 0; }
 
-  /* line 124, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 128, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle.expand span:before {
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg); }
 
-  /* line 130, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 134, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle.expand span:after {
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg); }
 
-  /* line 138, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 142, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .no-scroll {
     overflow: hidden; }
 
-  /* line 142, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 146, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .top-nav ul {
     position: fixed;
     opacity: 0;
@@ -1214,27 +1218,28 @@ tr:nth-child(even) {
     height: 100vh;
     width: 100%;
     top: 0em;
-    z-index: 999; }
-    /* line 150, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    z-index: 0; }
+    /* line 154, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .top-nav ul li {
       width: 100%;
       text-align: center; }
-    /* line 154, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 158, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .top-nav ul li:first-child {
       margin-top: 6em; }
-    /* line 157, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 161, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .top-nav ul a {
       color: #f5f5f5;
       text-align: center;
       border-bottom: none;
       letter-spacing: 1px; }
 
-  /* line 165, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 169, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .top-nav[data-state="expand"] ul {
-    opacity: 0.9; }
+    opacity: 0.9;
+    z-index: 10; }
  }
 
-/* line 173, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 178, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .top-nav ul {
   margin: 0;
   padding: 0;
@@ -1244,15 +1249,15 @@ tr:nth-child(even) {
   bottom: 0;
   text-align: center;
   display: block; }
-  /* line 181, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 186, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .top-nav ul li {
     font-size: 1rem;
     letter-spacing: 1px;
     border-right: 2px solid #222222; }
-    /* line 185, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 190, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .top-nav ul li:last-child {
       border-right: none; }
-    /* line 188, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 193, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .top-nav ul li a {
       transition: all 250ms linear;
       border-bottom: none;
@@ -1262,84 +1267,282 @@ tr:nth-child(even) {
       display: block;
       background-color: #2b2b2b;
       opacity: 0.9; }
-      /* line 197, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+      /* line 202, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
       .top-nav ul li a:hover {
         background-color: #222222;
         opacity: 1; }
 
-/* line 208, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 213, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .top-nav ul li:nth-child(6), .top-nav ul li:nth-child(7) {
   display: none; }
 
-/* line 212, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 217, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .lr-btn {
   position: absolute;
   top: 30px;
   left: calc(100vw - 11em); }
 
-/* line 218, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 223, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .lr-btn a {
   color: #ffffff;
   border-bottom: none;
   letter-spacing: 1px; }
 
-/* line 224, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 229, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .lr-btn li:first-child a {
   border-right: 2px solid #ffffff;
   margin-right: 1em;
   padding-right: 1em; }
 
-/* line 230, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 235, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .lr-btn a:hover {
   opacity: 0.6; }
 
+/* line 239, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.log-reg-wrapper {
+  display: none;
+  position: fixed;
+  background-color: rgba(34, 34, 34, 0.8);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 30% 20%; }
+
+/* line 250, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.log-reg-form {
+  padding: 2em 3em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 100%; }
+
+/* line 257, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.log-reg-form h2 {
+  margin: 0 0 0.5em 0;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 2em; }
+
+/* line 264, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.log-reg-form a:hover {
+  opacity: 0.5; }
+
+/* line 269, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.log-reg-form input[placeholder="Email Address"], .log-reg-form input[placeholder="password"] {
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+/* line 274, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.log-reg-form input {
+  border: 2px solid rgba(43, 43, 43, 0.6);
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 5px; }
+
+/* line 281, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.log-reg-form a {
+  border-bottom: 1px solid #bdc4a7;
+  color: #bdc4a7;
+  font-size: 0.8em; }
+
+/* line 289, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.log-reg-form input[type="text"]:focus, .log-reg-form input[type="password"]:focus {
+  border: 2px solid #bdc4a7; }
+
+/* line 293, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+input:focus {
+  outline-offset: 0;
+  outline: -webkit-focus-ring-color auto 0px; }
+
+/* line 298, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.log-reg-wrapper[data-state="expand"] {
+  display: block;
+  z-index: 12; }
+
+/* line 303, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.exit-lr-wrapper {
+  position: absolute;
+  top: 1em;
+  right: 3em;
+  padding: 0.65em 0em; }
+
+/* line 312, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.exit-lr span, .exit-lr span:before, .exit-lr span:after {
+  position: absolute;
+  border-radius: 1px;
+  height: 5px;
+  width: 30px;
+  display: block;
+  content: '';
+  transition: all 250ms ease-in-out; }
+
+/* line 322, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.exit-lr span {
+  background-color: transparent; }
+
+/* line 326, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.exit-lr span:before {
+  top: 0;
+  background-color: #bdc4a7;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+/* line 335, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.exit-lr span:after {
+  bottom: 0;
+  background-color: #bdc4a7;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
 @media only screen and (max-width: 600px) {
-  /* line 237, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 345, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .lr-btn {
     display: none; }
 
-  /* line 241, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 349, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .top-nav ul li:nth-child(6) {
     border-right: 2px solid #ffffff; }
 
-  /* line 246, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 354, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .top-nav ul li:nth-child(6), .top-nav ul li:nth-child(7) {
     display: inline-block;
     width: 35%;
     margin: 0.25em 0; }
 
-  /* line 253, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 361, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .top-nav ul li:nth-child(6) a, .top-nav ul li:nth-child(7) a {
     margin: 0;
     padding: 0.35em 0;
     font-size: 0.8em; }
+
+  /* line 367, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20%;
+    background-color: white; }
+
+  /* line 378, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-form {
+    width: 100%;
+    padding: 10em 10%;
+    border-radius: 15px; }
+
+  /* line 384, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-form input {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px; }
+
+  /* line 390, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-form h2 {
+    margin: 0;
+    margin-bottom: 0.5em;
+    font-weight: 300;
+    font-size: 2em;
+    text-transform: uppercase; }
+
+  /* line 398, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-form a {
+    border-bottom: 1px solid #bdc4a7;
+    color: #bdc4a7;
+    font-size: 0.8em; }
+ }
+
+@media only screen and (max-width: 400px) {
+  /* line 408, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 10%;
+    background-color: white; }
+
+  /* line 419, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-form {
+    width: 100%;
+    padding: 10em 10%;
+    border-radius: 15px; }
+
+  /* line 425, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-form input {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px; }
+
+  /* line 431, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-form h2 {
+    margin: 0;
+    margin-bottom: 0.5em;
+    font-weight: 300;
+    font-size: 2em;
+    text-transform: uppercase; }
+
+  /* line 439, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-form a {
+    border-bottom: 1px solid #bdc4a7;
+    color: #bdc4a7;
+    font-size: 0.8em; }
  }
 
 @media only screen and (min-width: 400px) {
-  /* line 263, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 448, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .top-nav ul li:nth-child(6), .top-nav ul li:nth-child(7) {
     width: 25%; }
  }
 
-/* line 273, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+@media only screen and (min-width: 700px) {
+  /* line 455, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-wrapper {
+    padding: 27% 28%; }
+ }
+
+@media only screen and (min-width: 850px) {
+  /* line 461, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-wrapper {
+    padding: 22% 32%; }
+ }
+
+@media only screen and (min-width: 900px) {
+  /* line 467, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-wrapper {
+    padding: 20% 34%; }
+ }
+
+@media only screen and (min-width: 1000px) {
+  /* line 473, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .log-reg-wrapper {
+    padding: 17% 36%; }
+ }
+
+/* line 484, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .bottom-nav ul {
   margin: 0;
   padding: 0;
   font-size: 0;
   background-color: #2b2b2b;
   margin: 0 auto; }
-  /* line 278, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 489, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .bottom-nav ul li {
     font-size: 1rem;
     padding-bottom: 2em;
     text-align: center; }
-    /* line 282, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 493, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .bottom-nav ul li ul li {
       padding: 0.5rem 0; }
-      /* line 284, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+      /* line 495, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
       .bottom-nav ul li ul li a {
         padding: 0; }
-  /* line 289, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 500, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .bottom-nav ul a {
     transition: all 250ms linear;
     padding: 2.5em 0 0.5em 0;
@@ -1347,52 +1550,52 @@ tr:nth-child(even) {
     border-bottom: none;
     color: #bdc4a7;
     display: block; }
-    /* line 296, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 507, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .bottom-nav ul a:hover {
       opacity: 0.6; }
 
 @media only screen and (max-width: 600px) {
-  /* line 305, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 516, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .bottom-nav ul {
     margin: 0;
     padding: 0;
     font-size: 0;
     display: block;
     background-color: #2b2b2b; }
-    /* line 310, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 521, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .bottom-nav ul li {
       font-size: 1rem; }
-      /* line 312, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+      /* line 523, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
       .bottom-nav ul li ul li {
         padding: 0.5rem; }
-        /* line 314, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+        /* line 525, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
         .bottom-nav ul li ul li a {
           padding: 0; }
-    /* line 319, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 530, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .bottom-nav ul a {
       transition: all 250ms linear;
       padding: 2.5em 0 0.5em 0;
       display: block;
       width: 100%;
       text-align: center; }
-      /* line 325, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+      /* line 536, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
       .bottom-nav ul a:hover {
         opacity: 0.6; }
  }
 
 /* — — — — DONATIONS — — — — */
-/* line 334, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 545, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .wrap {
   display: block;
   overflow: hidden; }
 
-/* line 339, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 550, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .donations {
   clear: both;
   display: block;
   overflow: hidden; }
 
-/* line 345, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 556, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .donate-button {
   box-sizing: border-box;
   margin: 0;
@@ -1403,7 +1606,7 @@ tr:nth-child(even) {
   overflow: hidden;
   background-color: #f7f7f7;
   transition: all 250ms linear; }
-  /* line 357, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 568, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button h3 {
     width: 100%;
     text-align: center;
@@ -1413,7 +1616,7 @@ tr:nth-child(even) {
     position: absolute;
     top: 27.5%;
     transition: all 150ms ease-in; }
-  /* line 367, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 578, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button p {
     -webkit-transform: translateY(210px);
         -ms-transform: translateY(210px);
@@ -1422,7 +1625,7 @@ tr:nth-child(even) {
     vertical-align: middle;
     transition: all 200ms ease-out;
     opacity: 0; }
-  /* line 374, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 585, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button input {
     height: 13rem;
     border: none;
@@ -1430,7 +1633,7 @@ tr:nth-child(even) {
     font-size: 4rem;
     font-weight: 300;
     margin: 0; }
-  /* line 382, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 593, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button input[type="number"] {
     display: block;
     margin: 0;
@@ -1441,10 +1644,10 @@ tr:nth-child(even) {
     font-size: 4rem;
     font-weight: 100;
     text-align: right; }
-    /* line 392, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 603, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .donate-button input[type="number"]:focus {
       outline: 1px solid #6B8E23; }
-  /* line 396, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 607, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button input[type=radio] {
     opacity: 0;
     position: absolute;
@@ -1456,7 +1659,7 @@ tr:nth-child(even) {
     margin-right: 20px;
     overflow: visible
     /* HOW DOES THIS EVEN FIX IT? BUT IT WORKS?! */ }
-  /* line 406, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 617, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button input[type=radio]:checked {
     opacity: 1;
     transition: all 150ms ease-in;
@@ -1464,7 +1667,7 @@ tr:nth-child(even) {
         -ms-transform: translateY(9.75rem);
             transform: translateY(9.75rem);
     height: 3.25rem; }
-  /* line 413, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 624, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button input[type=radio]:checked:before {
     content: 'Selected';
     position: absolute;
@@ -1494,39 +1697,39 @@ tr:nth-child(even) {
       .donate-button input[type=radio]:checked:before {
         /* — — — — —XLARGE Screens — — — — — */
         padding: 0 0 0rem 36.5%; } }
-  /* line 438, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 649, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button ::-webkit-input-placeholder {
     color: #A1A1A1;
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
     text-align: center; }
-  /* line 445, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 656, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button ::-moz-placeholder {
     color: #A1A1A1;
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
     text-align: center; }
-  /* line 452, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 663, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button :-moz-placeholder {
     color: #A1A1A1;
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
     text-align: center; }
-  /* line 459, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 670, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button :-ms-input-placeholder {
     color: #A1A1A1;
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
     text-align: center; }
-  /* line 466, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 677, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button:hover {
     cursor: pointer;
     background: #6B8E23; }
-    /* line 468, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 679, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .donate-button:hover h3 {
       color: #f5f5f5;
       -webkit-transform: translateY(-5px);
@@ -1534,7 +1737,7 @@ tr:nth-child(even) {
               transform: translateY(-5px);
       font-size: 2.5rem;
       font-weight: 700; }
-    /* line 474, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 685, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .donate-button:hover p {
       color: #f5f5f5;
       -webkit-transform: translateY(105px);
@@ -1542,7 +1745,7 @@ tr:nth-child(even) {
               transform: translateY(105px);
       opacity: 1; }
 
-/* line 483, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 694, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 textarea {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -1553,19 +1756,19 @@ textarea {
   background-color: #f5f5f5;
   border: none; }
 
-/* line 494, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 705, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .dedication {
   position: relative;
   height: 3.75rem;
   float: left; }
-  /* line 498, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 709, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .dedication label {
     width: 100%;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 2rem; }
-  /* line 506, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 717, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .dedication input[type="text"], .dedication input[type="email"] {
     float: right;
     height: 2rem;
@@ -1577,34 +1780,34 @@ textarea {
     font-size: 1rem;
     font-weight: 300;
     background-color: #f5f5f5; }
-    /* line 517, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    /* line 728, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .dedication input[type="text"]:focus, .dedication input[type="email"]:focus {
       outline: 1px solid #6B8E23; }
   @media only screen and (min-width: 25em) {
     .dedication {
       /* — — — — — Up to SMALL Screens — — — — — */ }
-      /* line 522, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+      /* line 733, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
       .dedication label {
         width: 35%; }
-      /* line 526, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+      /* line 737, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
       .dedication input[type="text"], .dedication input[type="email"] {
         width: 65%; } }
 
 @media only screen and (max-width: 25em) {
   /* — — — — — Up to SMALL Screens — — — — — */
-  /* line 533, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 744, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .mobile {
     width: 90%; }
  }
 
 @media only screen and (max-width: 38em) {
   /* — — — — — Up to SMALL Screens — — — — — */
-  /* line 539, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 750, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .mobile {
     width: 95%; }
  }
 
-/* line 544, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 755, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .info-box {
   display: inline-block;
   float: left;
@@ -1612,7 +1815,7 @@ textarea {
   text-align: center;
   padding: 1.75rem; }
 
-/* line 552, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+/* line 763, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .gigantor-donate-button {
   transition: all 200ms ease-in;
   display: block;
@@ -1621,14 +1824,14 @@ textarea {
   text-align: center;
   background-color: #6B8E23;
   height: 13rem; }
-  /* line 553, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 764, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .gigantor-donate-button a, .gigantor-donate-button:visited, .gigantor-donate-button:link {
     color: #f5f5f5;
     text-decoration: none;
     border: none;
     border-bottom: 0px solid red;
     font-weight: 300; }
-  /* line 567, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  /* line 778, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .gigantor-donate-button:hover, .gigantor-donate-button:focus, .gigantor-donate-button:active {
     color: #6B8E23;
     background-color: #bdc4a7;
