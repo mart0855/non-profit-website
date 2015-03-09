@@ -324,9 +324,11 @@
 		font-family: 'Roboto', sans-serif;
 		font-size: 4rem;
 		font-weight: 100;
-		text-align: right;			
-		&:focus {
+		text-align: right;	
+		&:focus, &:active {
 			outline: 1px solid $green;
+			border: none;
+		background-color: rgba(248,255,242,1.00);
 		}
 	}	
 	input[type=radio] {
@@ -425,6 +427,11 @@ textarea {
 	margin-top: .5rem;
 	background-color: $light-grey;
 	border: none;
+	&:focus, &:active {
+		outline: 1px solid $green;
+		border: none;
+		background-color: rgba(248,255,242,1.00);
+	}	
 }
 
 .dedication {
@@ -450,8 +457,10 @@ textarea {
 		font-size: 1rem;
 		font-weight: 300;
 		background-color: $light-grey;
-		&:focus {
+		&:focus, &:active {
 			outline: 1px solid $green;
+			border: none;
+			background-color: rgba(248,255,242,1.00);
 		}
 	}
 	@media only screen and (min-width: 25em) { /* — — — — — Up to SMALL Screens — — — — — */
