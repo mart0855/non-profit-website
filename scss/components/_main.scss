@@ -142,7 +142,6 @@ html {
 	.no-scroll {
 		overflow:hidden;
 	}
-
 	.top-nav ul {
 		display:none;
 		position: fixed;
@@ -168,18 +167,14 @@ html {
 				display:none;
 			}
 	}
-
 	.top-nav[data-state="expand"] ul,
 	.top-nav[data-state="expand"] ul li a {
 		opacity: .9;
 		z-index: 10;
 		display:inline-block;
 	}
-
 }
-
 // Big Screen Navigation Styling
-
 .top-nav ul {
 	@include zero;
 	@include ease(all, 250ms, linear);
@@ -212,36 +207,29 @@ html {
 			}
 		}
 }
-
 // Log In & Register
-
 .top-nav ul li:nth-child(6),
 .top-nav ul li:nth-child(7) {
 	display: none;
 }
-
 .lr-btn {
 	position: absolute;
 	top: 30px;
 	left: calc(100vw - 11em);
 	}
-
 .lr-btn a {
 	color: #ffffff;
 	border-bottom: none;
 	letter-spacing: 1px;
 }
-
 .lr-btn li:first-child a {
 	border-right:2px solid #ffffff;
 	margin-right: 1em;
 	padding-right: 1em;
 }
-
 .lr-btn a:hover {
 	opacity: .6;
 }
-
 .register-wrapper,
 .log-reg-wrapper {
 	display:none;
@@ -253,7 +241,6 @@ html {
 	left: 0;
 	padding: 30% 20%;
 }
-
 .register-form,
 .log-reg-form {
 	padding: 2em 3em;
@@ -261,7 +248,6 @@ html {
 	border-radius: 10px;
 	width: 100%;
 }
-
 .register-form h2,
 .log-reg-form h2 {
 	margin: 0 0 .5em 0;
@@ -269,12 +255,10 @@ html {
 	text-transform: uppercase;
 	font-size: 2em;
 }
-
 .register-form a:hover,
 .log-reg-form a:hover {
 	opacity: .5;
 }
-
 .register-form input[placeholder="Name"],
 .register-form input[placeholder="Address"],
 .register-form input[placeholder="Email Address"],
@@ -285,7 +269,6 @@ html {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-
 .register-form input,
 .log-reg-form input {
 	border: 2px solid rgba($dark-grey, .6);
@@ -293,14 +276,12 @@ html {
 	padding: .5em;
 	border-radius: 5px;
 }
-
 .register-form a,
 .log-reg-form a {
 	border-bottom: 1px solid $light-green;
 	color: $light-green;
 	font-size: .80em;
 }
-
 .register-form input[placeholder="Name"]:focus,
 .register-form input[placeholder="Address"]:focus,
 .register-form input[placeholder="Email Address"]:focus,
@@ -310,25 +291,21 @@ html {
 .log-reg-form input[type="password"]:focus {
 	border: 2px solid rgba($light-green, 1);
 }
-
 input:focus {
 	outline-offset: 0;
 	outline: -webkit-focus-ring-color auto 0px;
 }
-
 .register-wrapper[data-state="expand"],
 .log-reg-wrapper[data-state="expand"] {
 	display: block;
 	z-index: 12;
 }
-
 .exit-lr-wrapper {
 	position:absolute;
 	top: 1em;
 	right: 3em;
 	padding: 0.65em 0em;
 }
-
 .exit-lr span,
 .exit-lr span:before,
 .exit-lr span:after {
@@ -340,20 +317,16 @@ input:focus {
   content: '';
   transition: all 250ms ease-in-out;
 }
-
 .exit-lr span {
 	background-color: transparent;
 }
-
 .exit-lr span:before {
 	top:0;
 	background-color: $light-green;
 	-ms-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	transform: rotate(-45deg);
-
 }
-
 .exit-lr span:after {
 	bottom:0;
 	background-color: $light-green;
@@ -361,31 +334,25 @@ input:focus {
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
-
-
 @media only screen and (max-width: 600px) {
 	.lr-btn {
 		display: none;
 	}
-
 	.top-nav ul li:nth-child(6) {
      border-right: 2px solid #ffffff;
    }
-
 	.top-nav ul li:nth-child(6),
 	.top-nav ul li:nth-child(7) {
 		display: inline-block;
 		width: 35%;
 		margin: 0.25em 0;
 	}
-
 	.top-nav ul li:nth-child(6) a,
 	.top-nav ul li:nth-child(7) a {
 		margin: 0;
 		padding: 0.35em 0;
 		font-size: 0.8em;
 	}
-
 	.register-wrapper,
 	.log-reg-wrapper {
 		display:none;
@@ -397,24 +364,20 @@ input:focus {
 		padding: 0 20%;
 		background-color: rgba(#fff, 1);
 	}
-
 	.log-reg-form {
 		width: 100%;
 		padding: 10em 10%;
 		border-radius: 15px;
 		}
-
 		.register-form {
 			width: 100%;
 			padding: 10em 2%;
 		}
-
 	.log-reg-form input {
 		width: 100%;
 		padding: .5em;
 		border-radius: 5px;
 	}
-
 	.log-reg-form h2 {
 		margin:0;
 		margin-bottom: .5em;
@@ -422,17 +385,13 @@ input:focus {
 		font-size: 2em;
 		text-transform: uppercase;
 	}
-
 	.log-reg-form a {
 		border-bottom: 1px solid $light-green;
 		color: $light-green;
 		font-size: .80em;
 	}
-
 }
-
 @media only screen and (max-width: 400px) {
-
 	.log-reg-wrapper {
 		display:none;
 		position: fixed;
@@ -443,19 +402,16 @@ input:focus {
 		padding: 0 10%;
 		background-color: rgba(#fff, 1);
 	}
-
 	.log-reg-form {
 		width: 100%;
 		padding: 10em 10%;
 		border-radius: 15px;
 		}
-
 	.log-reg-form input {
 		width: 100%;
 		padding: .5em;
 		border-radius: 5px;
 	}
-
 	.log-reg-form h2 {
 		margin:0;
 		margin-bottom: .5em;
@@ -463,38 +419,31 @@ input:focus {
 		font-size: 2em;
 		text-transform: uppercase;
 	}
-
 	.log-reg-form a {
 		border-bottom: 1px solid $light-green;
 		color: $light-green;
 		font-size: .80em;
 	}
 }
-
 @media only screen and (min-width: 400px) {
 	.top-nav ul li:nth-child(6),
 	.top-nav ul li:nth-child(7) {
 		width: 25%;
 	}
 }
-
 @media only screen and (min-width: 601px) {
 	.register-wrapper {
 		padding: 18% 18%;
 		}
 }
-
-
 @media only screen and (min-width: 700px) {
 	.log-reg-wrapper {
 		padding: 27% 28%;
 	}
-
 	.register-wrapper {
 	padding: 18% 20%;
 	}
 }
-
 @media only screen and (min-width: 850px) {
 	.log-reg-wrapper {
 		padding: 22% 32%;
@@ -502,9 +451,7 @@ input:focus {
 	.register-wrapper {
 		padding: 16% 24%;
 	}
-
 }
-
 @media only screen and (min-width: 900px) {
 	.log-reg-wrapper {
 		padding: 20% 34%;
@@ -513,7 +460,6 @@ input:focus {
 		padding: 14% 26%;
 	}
 }
-
 @media only screen and (min-width: 1000px) {
 	.log-reg-wrapper {
 		padding: 17% 36%;
@@ -522,7 +468,6 @@ input:focus {
 		padding: 12% 28%;
 	}
 }
-
 .top-nav- ul li a {
 	display:none;
 }
@@ -868,7 +813,7 @@ textarea {
 	border: none;
 	overflow: hidden;
 	float: left;
-	font-size: 0; 
+	font-size: 0;
 	height: 19rem;
 	figcaption {
 		position: absolute;
@@ -900,18 +845,18 @@ textarea {
 		background-color: $light-grey;
 		line-height: 2.5rem;
 		font-size: .95rem;
-		font-weight: 400;			
+		font-weight: 400;
 		color: #228B22;
 	}
 	&:hover, &:focus, &:active {
 		border-bottom: 3px solid rgba(119,201,81,1);
 		figcaption {
 			background-color: $light-grey;
-			border-top: none;			
+			border-top: none;
 			height: 19.5rem;
 			top: 0;
 			p {
-				opacity: 1;			
+				opacity: 1;
 			}
 		}
 		img {

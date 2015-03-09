@@ -1212,7 +1212,7 @@ body, html {
   .no-scroll {
     overflow: hidden; }
 
-  /* line 146, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 145, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .top-nav ul {
     display: none;
     position: fixed;
@@ -1223,14 +1223,14 @@ body, html {
     margin-top: 5em;
     top: 0;
     z-index: 0; }
-    /* line 156, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 155, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .top-nav ul li {
       width: 100%;
       text-align: center; }
-    /* line 160, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 159, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .top-nav ul li:first-child {
       margin-top: 6em; }
-    /* line 163, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 162, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .top-nav ul a {
       color: #f5f5f5;
       text-align: center;
@@ -1238,14 +1238,14 @@ body, html {
       letter-spacing: 1px;
       display: none; }
 
-  /* line 173, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 171, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .top-nav[data-state="expand"] ul, .top-nav[data-state="expand"] ul li a {
     opacity: 0.9;
     z-index: 10;
     display: inline-block; }
  }
 
-/* line 183, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 178, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .top-nav ul {
   margin: 0;
   padding: 0;
@@ -1256,15 +1256,15 @@ body, html {
   bottom: 0;
   text-align: center;
   display: block; }
-  /* line 192, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 187, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .top-nav ul li {
     font-size: 1rem;
     letter-spacing: 1px;
     border-right: 2px solid #222222; }
-    /* line 196, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 191, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .top-nav ul li:last-child {
       border-right: none; }
-    /* line 199, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 194, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .top-nav ul li a {
       transition: all 250ms linear;
       border-bottom: none;
@@ -1274,38 +1274,38 @@ body, html {
       display: none;
       background-color: #2b2b2b;
       opacity: 0.9; }
-      /* line 208, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+      /* line 203, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
       .top-nav ul li a:hover {
         background-color: #222222;
         opacity: 1; }
 
-/* line 219, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 212, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .top-nav ul li:nth-child(6), .top-nav ul li:nth-child(7) {
   display: none; }
 
-/* line 223, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 215, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .lr-btn {
   position: absolute;
   top: 30px;
   left: calc(100vw - 11em); }
 
-/* line 229, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 220, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .lr-btn a {
   color: #ffffff;
   border-bottom: none;
   letter-spacing: 1px; }
 
-/* line 235, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 225, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .lr-btn li:first-child a {
   border-right: 2px solid #ffffff;
   margin-right: 1em;
   padding-right: 1em; }
 
-/* line 241, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 230, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .lr-btn a:hover {
   opacity: 0.6; }
 
-/* line 246, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 234, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .register-wrapper, .log-reg-wrapper {
   display: none;
   position: fixed;
@@ -1316,64 +1316,64 @@ body, html {
   left: 0;
   padding: 30% 20%; }
 
-/* line 258, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 245, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .register-form, .log-reg-form {
   padding: 2em 3em;
   background-color: #ffffff;
   border-radius: 10px;
   width: 100%; }
 
-/* line 266, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 252, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .register-form h2, .log-reg-form h2 {
   margin: 0 0 0.5em 0;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 2em; }
 
-/* line 274, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 259, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .register-form a:hover, .log-reg-form a:hover {
   opacity: 0.5; }
 
-/* line 284, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 268, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .register-form input[placeholder="Name"], .register-form input[placeholder="Address"], .register-form input[placeholder="Email Address"], .register-form input[placeholder="password"], .register-form input[placeholder="confirm password"], .log-reg-form input[placeholder="Email Address"], .log-reg-form input[placeholder="password"] {
   text-transform: uppercase;
   letter-spacing: 1px; }
 
-/* line 290, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 273, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .register-form input, .log-reg-form input {
   border: 2px solid rgba(43, 43, 43, 0.6);
   width: 100%;
   padding: 0.5em;
   border-radius: 5px; }
 
-/* line 298, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 280, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .register-form a, .log-reg-form a {
   border-bottom: 1px solid #bdc4a7;
   color: #bdc4a7;
   font-size: 0.8em; }
 
-/* line 310, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 291, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .register-form input[placeholder="Name"]:focus, .register-form input[placeholder="Address"]:focus, .register-form input[placeholder="Email Address"]:focus, .register-form input[placeholder="password"]:focus, .register-form input[placeholder="confirm password"]:focus, .log-reg-form input[type="text"]:focus, .log-reg-form input[type="password"]:focus {
   border: 2px solid #bdc4a7; }
 
-/* line 314, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 294, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 input:focus {
   outline-offset: 0;
   outline: -webkit-focus-ring-color auto 0px; }
 
-/* line 320, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 299, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .register-wrapper[data-state="expand"], .log-reg-wrapper[data-state="expand"] {
   display: block;
   z-index: 12; }
 
-/* line 325, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 303, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .exit-lr-wrapper {
   position: absolute;
   top: 1em;
   right: 3em;
   padding: 0.65em 0em; }
 
-/* line 334, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 311, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .exit-lr span, .exit-lr span:before, .exit-lr span:after {
   position: absolute;
   border-radius: 1px;
@@ -1383,11 +1383,11 @@ input:focus {
   content: '';
   transition: all 250ms ease-in-out; }
 
-/* line 344, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 320, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .exit-lr span {
   background-color: transparent; }
 
-/* line 348, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 323, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .exit-lr span:before {
   top: 0;
   background-color: #bdc4a7;
@@ -1395,7 +1395,7 @@ input:focus {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-/* line 357, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 330, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .exit-lr span:after {
   bottom: 0;
   background-color: #bdc4a7;
@@ -1404,27 +1404,27 @@ input:focus {
   transform: rotate(45deg); }
 
 @media only screen and (max-width: 600px) {
-  /* line 367, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 338, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .lr-btn {
     display: none; }
 
-  /* line 371, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 341, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .top-nav ul li:nth-child(6) {
     border-right: 2px solid #ffffff; }
 
-  /* line 376, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 345, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .top-nav ul li:nth-child(6), .top-nav ul li:nth-child(7) {
     display: inline-block;
     width: 35%;
     margin: 0.25em 0; }
 
-  /* line 383, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 351, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .top-nav ul li:nth-child(6) a, .top-nav ul li:nth-child(7) a {
     margin: 0;
     padding: 0.35em 0;
     font-size: 0.8em; }
 
-  /* line 390, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 357, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .register-wrapper, .log-reg-wrapper {
     display: none;
     position: fixed;
@@ -1435,24 +1435,24 @@ input:focus {
     padding: 0 20%;
     background-color: white; }
 
-  /* line 401, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 367, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-form {
     width: 100%;
     padding: 10em 10%;
     border-radius: 15px; }
 
-  /* line 407, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 372, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .register-form {
     width: 100%;
     padding: 10em 2%; }
 
-  /* line 412, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 376, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-form input {
     width: 100%;
     padding: 0.5em;
     border-radius: 5px; }
 
-  /* line 418, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 381, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-form h2 {
     margin: 0;
     margin-bottom: 0.5em;
@@ -1460,7 +1460,7 @@ input:focus {
     font-size: 2em;
     text-transform: uppercase; }
 
-  /* line 426, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 388, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-form a {
     border-bottom: 1px solid #bdc4a7;
     color: #bdc4a7;
@@ -1468,7 +1468,7 @@ input:focus {
  }
 
 @media only screen and (max-width: 400px) {
-  /* line 436, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 395, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-wrapper {
     display: none;
     position: fixed;
@@ -1479,19 +1479,19 @@ input:focus {
     padding: 0 10%;
     background-color: white; }
 
-  /* line 447, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 405, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-form {
     width: 100%;
     padding: 10em 10%;
     border-radius: 15px; }
 
-  /* line 453, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 410, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-form input {
     width: 100%;
     padding: 0.5em;
     border-radius: 5px; }
 
-  /* line 459, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 415, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-form h2 {
     margin: 0;
     margin-bottom: 0.5em;
@@ -1499,7 +1499,7 @@ input:focus {
     font-size: 2em;
     text-transform: uppercase; }
 
-  /* line 467, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 422, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-form a {
     border-bottom: 1px solid #bdc4a7;
     color: #bdc4a7;
@@ -1507,80 +1507,80 @@ input:focus {
  }
 
 @media only screen and (min-width: 400px) {
-  /* line 476, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 430, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .top-nav ul li:nth-child(6), .top-nav ul li:nth-child(7) {
     width: 25%; }
  }
 
 @media only screen and (min-width: 601px) {
-  /* line 482, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 435, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .register-wrapper {
     padding: 18% 18%; }
  }
 
 @media only screen and (min-width: 700px) {
-  /* line 489, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 440, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-wrapper {
     padding: 27% 28%; }
 
-  /* line 493, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 443, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .register-wrapper {
     padding: 18% 20%; }
  }
 
 @media only screen and (min-width: 850px) {
-  /* line 499, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 448, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-wrapper {
     padding: 22% 32%; }
 
-  /* line 502, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 451, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .register-wrapper {
     padding: 16% 24%; }
  }
 
 @media only screen and (min-width: 900px) {
-  /* line 509, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 456, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-wrapper {
     padding: 20% 34%; }
 
-  /* line 512, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 459, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .register-wrapper {
     padding: 14% 26%; }
  }
 
 @media only screen and (min-width: 1000px) {
-  /* line 518, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 464, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .log-reg-wrapper {
     padding: 17% 36%; }
 
-  /* line 521, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 467, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .register-wrapper {
     padding: 12% 28%; }
  }
 
-/* line 526, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 471, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .top-nav- ul li a {
   display: none; }
 
-/* line 536, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 481, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .bottom-nav ul {
   margin: 0;
   padding: 0;
   font-size: 0;
   background-color: #2b2b2b;
   margin: 0 auto; }
-  /* line 541, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 486, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .bottom-nav ul li {
     font-size: 1rem;
     padding-bottom: 2em;
     text-align: center; }
-    /* line 545, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 490, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .bottom-nav ul li ul li {
       padding: 0.5rem 0; }
-      /* line 547, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+      /* line 492, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
       .bottom-nav ul li ul li a {
         padding: 0; }
-  /* line 552, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 497, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .bottom-nav ul a {
     transition: all 250ms linear;
     padding: 2.5em 0 0.5em 0;
@@ -1588,52 +1588,52 @@ input:focus {
     border-bottom: none;
     color: #bdc4a7;
     display: block; }
-    /* line 559, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 504, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .bottom-nav ul a:hover {
       opacity: 0.6; }
 
 @media only screen and (max-width: 600px) {
-  /* line 568, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 513, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .bottom-nav ul {
     margin: 0;
     padding: 0;
     font-size: 0;
     display: block;
     background-color: #2b2b2b; }
-    /* line 573, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 518, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .bottom-nav ul li {
       font-size: 1rem; }
-      /* line 575, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+      /* line 520, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
       .bottom-nav ul li ul li {
         padding: 0.5rem; }
-        /* line 577, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+        /* line 522, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
         .bottom-nav ul li ul li a {
           padding: 0; }
-    /* line 582, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 527, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .bottom-nav ul a {
       transition: all 250ms linear;
       padding: 2.5em 0 0.5em 0;
       display: block;
       width: 100%;
       text-align: center; }
-      /* line 588, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+      /* line 533, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
       .bottom-nav ul a:hover {
         opacity: 0.6; }
  }
 
 /* — — — — DONATIONS — — — — */
-/* line 597, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 542, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .wrap {
   display: block;
   overflow: hidden; }
 
-/* line 602, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 547, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .donations {
   clear: both;
   display: block;
   overflow: hidden; }
 
-/* line 608, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 553, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .donate-button {
   box-sizing: border-box;
   margin: 0;
@@ -1644,7 +1644,7 @@ input:focus {
   overflow: hidden;
   background-color: #f7f7f7;
   transition: all 250ms linear; }
-  /* line 620, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 565, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .donate-button h3 {
     width: 100%;
     text-align: center;
@@ -1654,7 +1654,7 @@ input:focus {
     position: absolute;
     top: 27.5%;
     transition: all 150ms ease-in; }
-  /* line 630, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 575, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .donate-button p {
     -webkit-transform: translateY(210px);
         -ms-transform: translateY(210px);
@@ -1663,7 +1663,7 @@ input:focus {
     vertical-align: middle;
     transition: all 200ms ease-out;
     opacity: 0; }
-  /* line 637, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 582, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .donate-button input {
     height: 13rem;
     border: none;
@@ -1671,7 +1671,7 @@ input:focus {
     font-size: 4rem;
     font-weight: 300;
     margin: 0; }
-  /* line 645, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 590, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .donate-button input[type="number"] {
     display: block;
     margin: 0;
@@ -1682,12 +1682,12 @@ input:focus {
     font-size: 4rem;
     font-weight: 100;
     text-align: right; }
-    /* line 655, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 600, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .donate-button input[type="number"]:focus, .donate-button input[type="number"]:active {
       outline: 1px solid #6B8E23;
       border: none;
       background-color: #f8fff2; }
-  /* line 661, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 606, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .donate-button input[type=radio] {
     opacity: 0;
     position: absolute;
@@ -1699,7 +1699,7 @@ input:focus {
     margin-right: 20px;
     overflow: visible
     /* HOW DOES THIS EVEN FIX IT? BUT IT WORKS?! */ }
-  /* line 671, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 616, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .donate-button input[type=radio]:checked {
     opacity: 1;
     transition: all 150ms ease-in;
@@ -1707,7 +1707,7 @@ input:focus {
         -ms-transform: translateY(9.75rem);
             transform: translateY(9.75rem);
     height: 3.25rem; }
-  /* line 678, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 623, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .donate-button input[type=radio]:checked:before {
     content: 'Selected';
     position: absolute;
@@ -1737,39 +1737,39 @@ input:focus {
       .donate-button input[type=radio]:checked:before {
         /* — — — — —XLARGE Screens — — — — — */
         padding: 0 0 0rem 36.5%; } }
-  /* line 703, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 648, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .donate-button ::-webkit-input-placeholder {
     color: #A1A1A1;
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
     text-align: center; }
-  /* line 710, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 655, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .donate-button ::-moz-placeholder {
     color: #A1A1A1;
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
     text-align: center; }
-  /* line 717, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 662, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .donate-button :-moz-placeholder {
     color: #A1A1A1;
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
     text-align: center; }
-  /* line 724, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 669, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .donate-button :-ms-input-placeholder {
     color: #A1A1A1;
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
     text-align: center; }
-  /* line 731, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 676, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .donate-button:hover {
     cursor: pointer;
     background: #6B8E23; }
-    /* line 733, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 678, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .donate-button:hover h3 {
       color: #f5f5f5;
       -webkit-transform: translateY(-5px);
@@ -1777,7 +1777,7 @@ input:focus {
               transform: translateY(-5px);
       font-size: 2.5rem;
       font-weight: 700; }
-    /* line 739, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 684, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .donate-button:hover p {
       color: #f5f5f5;
       -webkit-transform: translateY(105px);
@@ -1785,7 +1785,7 @@ input:focus {
               transform: translateY(105px);
       opacity: 1; }
 
-/* line 748, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 693, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 textarea {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -1795,25 +1795,25 @@ textarea {
   margin-top: 0.5rem;
   background-color: #f5f5f5;
   border: none; }
-  /* line 757, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 702, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   textarea:focus, textarea:active {
     outline: 1px solid #6B8E23;
     border: none;
     background-color: #f8fff2; }
 
-/* line 764, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 709, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .dedication {
   position: relative;
   height: 3.75rem;
   float: left; }
-  /* line 768, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 713, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .dedication label {
     width: 100%;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 2rem; }
-  /* line 776, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 721, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .dedication input[type="text"], .dedication input[type="email"] {
     float: right;
     height: 2rem;
@@ -1825,7 +1825,7 @@ textarea {
     font-size: 1rem;
     font-weight: 300;
     background-color: #f5f5f5; }
-    /* line 787, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 732, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .dedication input[type="text"]:focus, .dedication input[type="text"]:active, .dedication input[type="email"]:focus, .dedication input[type="email"]:active {
       outline: 1px solid #6B8E23;
       border: none;
@@ -1833,28 +1833,28 @@ textarea {
   @media only screen and (min-width: 25em) {
     .dedication {
       /* — — — — — Up to SMALL Screens — — — — — */ }
-      /* line 794, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+      /* line 739, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
       .dedication label {
         width: 35%; }
-      /* line 798, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+      /* line 743, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
       .dedication input[type="text"], .dedication input[type="email"] {
         width: 65%; } }
 
 @media only screen and (max-width: 25em) {
   /* — — — — — Up to SMALL Screens — — — — — */
-  /* line 805, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 750, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .mobile {
     width: 90%; }
  }
 
 @media only screen and (max-width: 38em) {
   /* — — — — — Up to SMALL Screens — — — — — */
-  /* line 811, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 756, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .mobile {
     width: 95%; }
  }
 
-/* line 816, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 761, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .info-box {
   display: inline-block;
   float: left;
@@ -1862,7 +1862,7 @@ textarea {
   text-align: center;
   padding: 1.75rem; }
 
-/* line 824, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 769, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .gigantor-donate-button {
   transition: all 200ms ease-in;
   display: block;
@@ -1870,7 +1870,7 @@ textarea {
   text-align: center;
   background-color: #6B8E23;
   height: 13rem; }
-  /* line 825, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 770, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .gigantor-donate-button a, .gigantor-donate-button:visited, .gigantor-donate-button:link {
     color: #f5f5f5;
     text-decoration: none;
@@ -1878,7 +1878,7 @@ textarea {
     border-bottom: 0px solid red;
     font-weight: 300;
     padding-top: 5rem; }
-  /* line 839, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 784, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .gigantor-donate-button:hover, .gigantor-donate-button:focus, .gigantor-donate-button:active {
     color: #f5f5f5;
     background-color: #77c951;
@@ -1887,22 +1887,22 @@ textarea {
   @media only screen and (max-width: 25em) {
     .gigantor-donate-button {
       /* — — — — — Up to SMALL Screens — — — — — */ }
-      /* line 846, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+      /* line 791, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
       .gigantor-donate-button a, .gigantor-donate-button:visited, .gigantor-donate-button:link {
         font-size: 1.75rem; } }
 
 /* — — — — DONATIONS — — — — */
-/* line 855, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 800, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .boxcontainer {
   display: block;
   overflow: hidden;
   margin-bottom: 3rem; }
 
-/* line 861, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 806, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .newsbox * {
   transition: all 200ms ease-in; }
 
-/* line 865, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+/* line 810, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
 .newsbox {
   display: block;
   position: relative;
@@ -1911,7 +1911,7 @@ textarea {
   float: left;
   font-size: 0;
   height: 19rem; }
-  /* line 873, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 818, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .newsbox figcaption {
     position: absolute;
     top: 13rem;
@@ -1919,19 +1919,19 @@ textarea {
     color: #666666;
     height: 19rem;
     border-top: 3px solid #6B8E23; }
-    /* line 880, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 825, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .newsbox figcaption p {
       color: #505050;
       font-size: 0.8rem;
       opacity: 0; }
-  /* line 886, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 831, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .newsbox small {
     height: 100%;
     opacity: 0;
     -webkit-transform: translateY(20px);
         -ms-transform: translateY(20px);
             transform: translateY(20px); }
-  /* line 891, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 836, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .newsbox .readmore {
     position: absolute;
     left: 0;
@@ -1946,22 +1946,22 @@ textarea {
     font-size: 0.95rem;
     font-weight: 400;
     color: #228B22; }
-  /* line 906, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+  /* line 851, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
   .newsbox:hover, .newsbox:focus, .newsbox:active {
     border-bottom: 3px solid #77c951; }
-    /* line 908, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 853, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .newsbox:hover figcaption, .newsbox:focus figcaption, .newsbox:active figcaption {
       background-color: #f5f5f5;
       border-top: none;
       height: 19.5rem;
       top: 0; }
-      /* line 913, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+      /* line 858, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
       .newsbox:hover figcaption p, .newsbox:focus figcaption p, .newsbox:active figcaption p {
         opacity: 1; }
-    /* line 917, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 862, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .newsbox:hover img, .newsbox:focus img, .newsbox:active img {
       opacity: 0; }
-    /* line 920, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
+    /* line 865, /Users/alexmac/Documents/Algonquin College Docs/Semester 6 Docs/IxD5/non-profit-website/scss/components/main */
     .newsbox:hover small, .newsbox:focus small, .newsbox:active small {
       opacity: 1;
       -webkit-transform: translateY(0px);
