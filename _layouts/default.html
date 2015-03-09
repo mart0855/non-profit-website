@@ -35,15 +35,52 @@
 					<li class="unit unit-s-1-5 unit-m-1-5 unit-l-1-5"><a href="media.html">Partners &amp; Media</a></li>
 					<li class="unit unit-s-1-5 unit-m-1-5 unit-l-1-5"><a href="advocacy.html">Our Advocacy</a></li>
 					<li class="unit unit-s-1-5 unit-m-1-5 unit-l-1-5"><a href="donate.html">Donations</a></li>
-					<li class="unit"><a href="#">Log In</a></li>
-					<li class="unit"><a href="#">Register</a></li>
+					<li class="unit log-in"><a href="#">Log In</a></li>
+					<li class="unit password register-toggle"><a href="#">Register</a></li>
 				</ul>
 			</nav>
 
 			<ul class="lr-btn">
-				<li class="unit"><a href="#">Log In</a></li>
-				<li class="unit"><a href="#">Register</a></li>
+				<li class="unit lr-log-in"><a href="#">Log In</a></li>
+				<li class="unit lr-register register-toggle"><a href="#">Register</a></li>
 			</ul>
+
+			<div class=" log-reg-wrapper" data-state="collapse">
+
+				<form class="unit log-reg-form">
+					<div class="exit-lr-wrapper">
+						<a class="exit-lr" href="#">
+							<span></span>
+						</a>
+					</div>
+
+					<h2>Log In</h2>
+					<p><input class="email-add-field" type="text" placeholder="Email Address"></p>
+					<p><input class="password-field" type="password" placeholder="password"></p>
+					<a class="register-toggle" href="">Not a member. Register here</a>
+				</form>
+			</div>
+
+
+			<div class="register-wrapper" data-state="collapse">
+
+				<form class="unit register-form">
+					<div class="exit-lr-wrapper">
+						<a class="exit-lr register-exit" href="#">
+							<span></span>
+						</a>
+					</div>
+
+					<h2>Register</h2>
+					<p><input class="register-name" type="text" placeholder="Name"></p>
+					<p><input class="register-address" type="text" placeholder="Address"></p>
+					<p><input class="register-email" type="text" placeholder="Email Address"></p>
+					<p><input class="register-password" type="password" placeholder="password"></p>
+					<p><input class="register-password-confirm" type="password" placeholder="confirm password"></p>
+					<a href="">Register</a>
+				</form>
+			</div>
+
 
 		</header>
 
