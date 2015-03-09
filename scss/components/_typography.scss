@@ -178,14 +178,10 @@ a:hover {
 
 a:focus {
 	border-bottom: none;
-	// outline: 1px dotted #228B22;
-	// background-color: rgba(152,251,152,.75);
+	outline: 1px dotted #228B22;
+	background-color: rgba(152,251,152,.75);
 	color: #fff;
 	text-shadow: 1px 1px #228B22;
-}
-
-a img {
-	border-bottom: 3px solid $green;
 }
 
 a:active {

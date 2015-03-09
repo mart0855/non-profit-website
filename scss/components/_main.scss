@@ -521,3 +521,45 @@ textarea {
 		}
 	}
 }
+
+/* — — — — DONATIONS — — — — */
+
+.boxcontainer {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 3rem;
+}
+
+.newsbox {
+	display: block;
+	border: none;
+	overflow: hidden;
+	float: left;
+	font-size: 0;
+	@include ease(all, 200ms, ease-in);
+	img {
+		margin: 0;
+		border-bottom: 3px solid $green;
+	}
+	figcaption {
+		font-size: 1.125rem;
+		color: #666666;
+	}
+	.readmore {
+		font-size: 0.707em;
+		margin: 1.414em 0 0.5em;
+		line-height: 1.2;
+		color: #228B22;
+		font-size: 0.707em;
+	}
+	&:hover {
+		figcaption {
+			background-color: rgba(119,201,81,.15);
+			@include ease(all, 300ms, ease-in);
+		}
+		.readmore{
+			color: rgba(34,139,34,.55);
+			text-align: right;
+		}
+	}
+}
