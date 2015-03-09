@@ -5,11 +5,11 @@
 /* Paul Irish's Padding Fix
 http://paulirish.com/2012/box-sizing-border-box-ftw
 */
-/* line 10, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/reset */
+/* line 10, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/reset */
 * {
   box-sizing: border-box; }
 
-/* line 24, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/reset */
+/* line 24, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/reset */
 html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -19,33 +19,33 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 34, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/reset */
+/* line 34, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/reset */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 37, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/reset */
+/* line 37, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/reset */
 body {
   line-height: 1; }
 
-/* line 40, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/reset */
+/* line 40, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/reset */
 ol, ul {
   list-style: none; }
 
-/* line 43, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/reset */
+/* line 43, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/reset */
 blockquote, q {
   quotes: none; }
 
-/* line 47, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/reset */
+/* line 47, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/reset */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
 
-/* line 51, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/reset */
+/* line 51, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/reset */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 1, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 1, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .grid {
   margin: 0;
   padding: 0;
@@ -60,32 +60,32 @@ table {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
 
-/* line 14, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 14, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
   -ms-flex-align: end;
       align-items: flex-end; }
 
-/* line 20, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 20, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center;
   -ms-flex-align: center;
       align-items: center; }
 
-/* line 26, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 26, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .grid-stretch {
   -webkit-align-items: stretch;
   -ms-align-items: stretch;
   -ms-flex-align: stretch;
       align-items: stretch; }
 
-/* line 32, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 32, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .opera-only :-o-prefocus, .grid {
   word-spacing: -0.43em; }
 
-/* line 36, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 36, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .unit {
   letter-spacing: normal;
   text-rendering: auto;
@@ -94,610 +94,614 @@ table {
   display: inline-block;
   visibility: visible; }
 
-/* line 45, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 45, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .grid-bottom .unit {
   vertical-align: bottom; }
 
-/* line 49, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 49, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .grid-middle .unit {
   vertical-align: middle; }
 
-/* line 54, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 54, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .unit[class*="push-"], .unit[class*="pull-"] {
   position: relative; }
 
-/* line 58, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 58, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .unit-xs-hidden {
   display: none;
   visibility: hidden; }
 
-/* line 63, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 63, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .unit-xs-centered {
   margin: 0 auto; }
 
-/* line 67, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 67, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .unit-xs-1, .xs-1 {
   display: block;
   visibility: visible;
   width: 100%; }
 
-/* line 73, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 73, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .unit-xs-1-2, .xs-1-2 {
   width: 50%; }
 
-/* line 77, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 77, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .unit-xs-1-3, .xs-1-3 {
   width: 33.3333%; }
 
-/* line 81, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 81, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .unit-xs-2-3, .xs-2-3 {
   width: 66.6667%; }
 
-/* line 85, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 85, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .unit-xs-1-2, .xs-1-2, .unit-xs-1-3, .xs-1-3, .unit-xs-2-3, .xs-2-3 {
   display: inline-block;
   visibility: visible; }
 
 @media only screen and (min-width: 25em) {
-  /* line 92, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 92, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-s-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 97, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 97, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-s-centered {
     margin: 0 auto; }
 
-  /* line 101, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 101, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-s-1, .s-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 107, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 107, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-s-1-2, .s-1-2 {
     width: 50%; }
 
-  /* line 111, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 111, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-s-1-3, .s-1-3 {
     width: 33.3333%; }
 
-  /* line 115, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 115, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
+  .unit-s-1-5 {
+    width: 20%; }
+
+  /* line 119, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-s-2-3, .s-2-3 {
     width: 66.6667%; }
 
-  /* line 119, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 123, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-s-1-4, .s-1-4 {
     width: 25%; }
 
-  /* line 123, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 127, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-s-3-4, .s-3-4 {
     width: 75%; }
 
-  /* line 127, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 131, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-s-1-2, .s-1-2, .unit-s-1-3, .s-1-3, .unit-s-2-3, .s-2-3, .unit-s-1-4, .s-1-4, .unit-s-3-4, .s-3-4 {
     display: inline-block;
     visibility: visible; }
  }
 
 @media only screen and (min-width: 38em) {
-  /* line 136, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 140, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 141, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 145, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-centered {
     margin: 0 auto; }
 
-  /* line 145, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 149, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-1, .m-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 151, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 155, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-1-2, .m-1-2 {
     width: 50%; }
 
-  /* line 155, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 159, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-1-3, .m-1-3 {
     width: 33.3333%; }
 
-  /* line 159, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 163, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-2-3, .m-2-3 {
     width: 66.6667%; }
 
-  /* line 163, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 167, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-1-4, .m-1-4 {
     width: 25%; }
 
-  /* line 167, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 171, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-3-4, .m-3-4 {
     width: 75%; }
 
-  /* line 171, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 175, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-1-5, .m-1-5 {
     width: 20%; }
 
-  /* line 175, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 179, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-2-5, .m-2-5 {
     width: 40%; }
 
-  /* line 179, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 183, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-3-5, .m-3-5 {
     width: 60%; }
 
-  /* line 183, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 187, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-4-5, .m-4-5 {
     width: 80%; }
 
-  /* line 187, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 191, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-1-6, .m-1-6 {
     width: 16.6667%; }
 
-  /* line 191, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 195, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-5-6, .m-5-6 {
     width: 83.3333%; }
 
-  /* line 195, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 199, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-m-1-2, .m-1-2, .unit-m-1-3, .m-1-3, .unit-m-2-3, .m-2-3, .unit-m-1-4, .m-1-4, .unit-m-3-4, .m-3-4, .unit-m-1-5, .m-1-5, .unit-m-2-5, .m-2-5, .unit-m-3-5, .m-3-5, .unit-m-4-5, .m-4-5, .unit-m-1-6, .m-1-6, .unit-m-5-6, .m-5-6 {
     display: inline-block;
     visibility: visible; }
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 204, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 208, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 209, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 213, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-centered {
     margin: 0 auto; }
 
-  /* line 213, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 217, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-1, .l-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 219, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 223, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-1-2, .l-1-2 {
     width: 50%; }
 
-  /* line 223, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 227, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-1-3, .l-1-3 {
     width: 33.3333%; }
 
-  /* line 227, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 231, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-2-3, .l-2-3 {
     width: 66.6667%; }
 
-  /* line 231, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 235, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-1-4, .l-1-4 {
     width: 25%; }
 
-  /* line 235, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 239, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-3-4, .l-3-4 {
     width: 75%; }
 
-  /* line 239, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 243, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-1-5, .l-1-5 {
     width: 20%; }
 
-  /* line 243, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 247, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-2-5, .l-2-5 {
     width: 40%; }
 
-  /* line 247, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 251, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-3-5, .l-3-5 {
     width: 60%; }
 
-  /* line 251, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 255, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-4-5, .l-4-5 {
     width: 80%; }
 
-  /* line 255, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 259, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-1-6, .l-1-6 {
     width: 16.6667%; }
 
-  /* line 259, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 263, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-5-6, .l-5-6 {
     width: 83.3333%; }
 
-  /* line 263, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 267, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-1-7, .l-1-7 {
     width: 14.2857%; }
 
-  /* line 267, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 271, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-2-7, .l-2-7 {
     width: 28.5714%; }
 
-  /* line 271, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 275, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-3-7, .l-3-7 {
     width: 42.8571%; }
 
-  /* line 275, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 279, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-4-7, .l-4-7 {
     width: 57.1429%; }
 
-  /* line 279, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 283, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-5-7, .l-5-7 {
     width: 71.4286%; }
 
-  /* line 283, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 287, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-6-7, .l-6-7 {
     width: 85.7143%; }
 
-  /* line 287, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 291, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-1-8, .l-1-8 {
     width: 12.5%; }
 
-  /* line 291, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 295, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-3-8, .l-3-8 {
     width: 37.5%; }
 
-  /* line 295, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 299, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-5-8, .l-5-8 {
     width: 62.5%; }
 
-  /* line 299, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 303, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-7-8, .l-7-8 {
     width: 87.5%; }
 
-  /* line 303, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 307, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-1-9, .l-1-9 {
     width: 11.1111%; }
 
-  /* line 307, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 311, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-2-9, .l-2-9 {
     width: 22.2222%; }
 
-  /* line 311, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 315, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-4-9, .l-4-9 {
     width: 44.4444%; }
 
-  /* line 315, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 319, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-5-9, .l-5-9 {
     width: 55.5556%; }
 
-  /* line 319, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 323, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-7-9, .l-7-9 {
     width: 77.7778%; }
 
-  /* line 323, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 327, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-8-9, .l-8-9 {
     width: 88.8889%; }
 
-  /* line 327, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 331, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-1-10, .l-1-10 {
     width: 10%; }
 
-  /* line 331, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 335, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-3-10, .l-3-10 {
     width: 30%; }
 
-  /* line 335, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 339, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-7-10, .l-7-10 {
     width: 70%; }
 
-  /* line 339, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 343, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-9-10, .l-9-10 {
     width: 90%; }
 
-  /* line 343, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 347, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-l-1-2, .l-1-2, .unit-l-1-3, .l-1-3, .unit-l-2-3, .l-2-3, .unit-l-1-4, .l-1-4, .unit-l-3-4, .l-3-4, .unit-l-1-5, .l-1-5, .unit-l-2-5, .l-2-5, .unit-l-3-5, .l-3-5, .unit-l-4-5, .l-4-5, .unit-l-1-6, .l-1-6, .unit-l-5-6, .l-5-6, .unit-l-1-7, .l-1-7, .unit-l-2-7, .l-2-7, .unit-l-3-7, .l-3-7, .unit-l-4-7, .l-4-7, .unit-l-5-7, .l-5-7, .unit-l-6-7, .l-6-7, .unit-l-1-8, .l-1-8, .unit-l-3-8, .l-3-8, .unit-l-5-8, .l-5-8, .unit-l-7-8, .l-7-8, .unit-l-1-9, .l-1-9, .unit-l-2-9, .l-2-9, .unit-l-4-9, .l-4-9, .unit-l-5-9, .l-5-9, .unit-l-7-9, .l-7-9, .unit-l-8-9, .l-8-9, .unit-l-1-10, .l-1-10, .unit-l-3-10, .l-3-10, .unit-l-7-10, .l-7-10, .unit-l-9-10, .l-9-10 {
     display: inline-block;
     visibility: visible; }
  }
 
 @media only screen and (min-width: 90em) {
-  /* line 352, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 356, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 357, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 361, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-centered {
     margin: 0 auto; }
 
-  /* line 361, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 365, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-1, .xl-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 367, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 371, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-1-2, .xl-1-2 {
     width: 50%; }
 
-  /* line 371, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 375, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-1-3, .xl-1-3 {
     width: 33.3333%; }
 
-  /* line 375, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 379, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-2-3, .xl-2-3 {
     width: 66.6667%; }
 
-  /* line 379, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 383, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-1-4, .xl-1-4 {
     width: 25%; }
 
-  /* line 383, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 387, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-3-4, .xl-3-4 {
     width: 75%; }
 
-  /* line 387, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 391, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-1-5, .xl-1-5 {
     width: 20%; }
 
-  /* line 391, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 395, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-2-5, .xl-2-5 {
     width: 40%; }
 
-  /* line 395, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 399, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-3-5, .xl-3-5 {
     width: 60%; }
 
-  /* line 399, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 403, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-4-5, .xl-4-5 {
     width: 80%; }
 
-  /* line 403, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 407, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-1-6, .xl-1-6 {
     width: 16.6667%; }
 
-  /* line 407, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 411, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-5-6, .xl-5-6 {
     width: 83.3333%; }
 
-  /* line 411, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 415, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-1-7, .xl-1-7 {
     width: 14.2857%; }
 
-  /* line 415, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 419, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-2-7, .xl-2-7 {
     width: 28.5714%; }
 
-  /* line 419, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 423, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-3-7, .xl-3-7 {
     width: 42.8571%; }
 
-  /* line 423, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 427, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-4-7, .xl-4-7 {
     width: 57.1429%; }
 
-  /* line 427, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 431, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-5-7, .xl-5-7 {
     width: 71.4286%; }
 
-  /* line 431, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 435, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-6-7, .xl-6-7 {
     width: 85.7143%; }
 
-  /* line 435, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 439, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-1-8, .xl-1-8 {
     width: 12.5%; }
 
-  /* line 439, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 443, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-3-8, .xl-3-8 {
     width: 37.5%; }
 
-  /* line 443, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 447, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-5-8, .xl-5-8 {
     width: 62.5%; }
 
-  /* line 447, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 451, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-7-8, .xl-7-8 {
     width: 87.5%; }
 
-  /* line 451, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 455, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-1-9, .xl-1-9 {
     width: 11.1111%; }
 
-  /* line 455, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 459, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-2-9, .xl-2-9 {
     width: 22.2222%; }
 
-  /* line 459, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 463, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-4-9, .xl-4-9 {
     width: 44.4444%; }
 
-  /* line 463, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 467, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-5-9, .xl-5-9 {
     width: 55.5556%; }
 
-  /* line 467, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 471, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-7-9, .xl-7-9 {
     width: 77.7778%; }
 
-  /* line 471, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 475, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-8-9, .xl-8-9 {
     width: 88.8889%; }
 
-  /* line 475, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 479, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-1-10, .xl-1-10 {
     width: 10%; }
 
-  /* line 479, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 483, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-3-10, .xl-3-10 {
     width: 30%; }
 
-  /* line 483, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 487, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-7-10, .xl-7-10 {
     width: 70%; }
 
-  /* line 487, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 491, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-9-10, .xl-9-10 {
     width: 90%; }
 
-  /* line 491, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 495, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xl-1-2, .xl-1-2, .unit-xl-1-3, .xl-1-3, .unit-xl-2-3, .xl-2-3, .unit-xl-1-4, .xl-1-4, .unit-xl-3-4, .xl-3-4, .unit-xl-1-5, .xl-1-5, .unit-xl-2-5, .xl-2-5, .unit-xl-3-5, .xl-3-5, .unit-xl-4-5, .xl-4-5, .unit-xl-1-6, .xl-1-6, .unit-xl-5-6, .xl-5-6, .unit-xl-1-7, .xl-1-7, .unit-xl-2-7, .xl-2-7, .unit-xl-3-7, .xl-3-7, .unit-xl-4-7, .xl-4-7, .unit-xl-5-7, .xl-5-7, .unit-xl-6-7, .xl-6-7, .unit-xl-1-8, .xl-1-8, .unit-xl-3-8, .xl-3-8, .unit-xl-5-8, .xl-5-8, .unit-xl-7-8, .xl-7-8, .unit-xl-1-9, .xl-1-9, .unit-xl-2-9, .xl-2-9, .unit-xl-4-9, .xl-4-9, .unit-xl-5-9, .xl-5-9, .unit-xl-7-9, .xl-7-9, .unit-xl-8-9, .xl-8-9, .unit-xl-1-10, .xl-1-10, .unit-xl-3-10, .xl-3-10, .unit-xl-7-10, .xl-7-10, .unit-xl-9-10, .xl-9-10 {
     display: inline-block;
     visibility: visible; }
  }
 
 @media only screen and (min-width: 110em) {
-  /* line 500, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 504, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 505, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 509, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-centered {
     margin: 0 auto; }
 
-  /* line 509, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 513, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-1, .xxl-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 515, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 519, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-1-2, .xxl-1-2 {
     width: 50%; }
 
-  /* line 519, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 523, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-1-3, .xxl-1-3 {
     width: 33.3333%; }
 
-  /* line 523, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 527, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-2-3, .xxl-2-3 {
     width: 66.6667%; }
 
-  /* line 527, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 531, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-1-4, .xxl-1-4 {
     width: 25%; }
 
-  /* line 531, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 535, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-3-4, .xxl-3-4 {
     width: 75%; }
 
-  /* line 535, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 539, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-1-5, .xxl-1-5 {
     width: 20%; }
 
-  /* line 539, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 543, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-2-5, .xxl-2-5 {
     width: 40%; }
 
-  /* line 543, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 547, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-3-5, .xxl-3-5 {
     width: 60%; }
 
-  /* line 547, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 551, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-4-5, .xxl-4-5 {
     width: 80%; }
 
-  /* line 551, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 555, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-1-6, .xxl-1-6 {
     width: 16.6667%; }
 
-  /* line 555, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 559, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-5-6, .xxl-5-6 {
     width: 83.3333%; }
 
-  /* line 559, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 563, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-1-7, .xxl-1-7 {
     width: 14.2857%; }
 
-  /* line 563, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 567, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-2-7, .xxl-2-7 {
     width: 28.5714%; }
 
-  /* line 567, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 571, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-3-7, .xxl-3-7 {
     width: 42.8571%; }
 
-  /* line 571, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 575, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-4-7, .xxl-4-7 {
     width: 57.1429%; }
 
-  /* line 575, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 579, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-5-7, .xxl-5-7 {
     width: 71.4286%; }
 
-  /* line 579, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 583, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-6-7, .xxl-6-7 {
     width: 85.7143%; }
 
-  /* line 583, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 587, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-1-8, .xxl-1-8 {
     width: 12.5%; }
 
-  /* line 587, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 591, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-3-8, .xxl-3-8 {
     width: 37.5%; }
 
-  /* line 591, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 595, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-5-8, .xxl-5-8 {
     width: 62.5%; }
 
-  /* line 595, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 599, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-7-8, .xxl-7-8 {
     width: 87.5%; }
 
-  /* line 599, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 603, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-1-9, .xxl-1-9 {
     width: 11.1111%; }
 
-  /* line 603, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 607, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-2-9, .xxl-2-9 {
     width: 22.2222%; }
 
-  /* line 607, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 611, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-4-9, .xxl-4-9 {
     width: 44.4444%; }
 
-  /* line 611, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 615, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-5-9, .xxl-5-9 {
     width: 55.5556%; }
 
-  /* line 615, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 619, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-7-9, .xxl-7-9 {
     width: 77.7778%; }
 
-  /* line 619, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 623, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-8-9, .xxl-8-9 {
     width: 88.8889%; }
 
-  /* line 623, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 627, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-1-10, .xxl-1-10 {
     width: 10%; }
 
-  /* line 627, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 631, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-3-10, .xxl-3-10 {
     width: 30%; }
 
-  /* line 631, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 635, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-7-10, .xxl-7-10 {
     width: 70%; }
 
-  /* line 635, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 639, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-9-10, .xxl-9-10 {
     width: 90%; }
 
-  /* line 639, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+  /* line 643, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
   .unit-xxl-1-2, .xxl-1-2, .unit-xxl-1-3, .xxl-1-3, .unit-xxl-2-3, .xxl-2-3, .unit-xxl-1-4, .xxl-1-4, .unit-xxl-3-4, .xxl-3-4, .unit-xxl-1-5, .xxl-1-5, .unit-xxl-2-5, .xxl-2-5, .unit-xxl-3-5, .xxl-3-5, .unit-xxl-4-5, .xxl-4-5, .unit-xxl-1-6, .xxl-1-6, .unit-xxl-5-6, .xxl-5-6, .unit-xxl-1-7, .xxl-1-7, .unit-xxl-2-7, .xxl-2-7, .unit-xxl-3-7, .xxl-3-7, .unit-xxl-4-7, .xxl-4-7, .unit-xxl-5-7, .xxl-5-7, .unit-xxl-6-7, .xxl-6-7, .unit-xxl-1-8, .xxl-1-8, .unit-xxl-3-8, .xxl-3-8, .unit-xxl-5-8, .xxl-5-8, .unit-xxl-7-8, .xxl-7-8, .unit-xxl-1-9, .xxl-1-9, .unit-xxl-2-9, .xxl-2-9, .unit-xxl-4-9, .xxl-4-9, .unit-xxl-5-9, .xxl-5-9, .unit-xxl-7-9, .xxl-7-9, .unit-xxl-8-9, .xxl-8-9, .unit-xxl-1-10, .xxl-1-10, .unit-xxl-3-10, .xxl-3-10, .unit-xxl-7-10, .xxl-7-10, .unit-xxl-9-10, .xxl-9-10 {
     display: inline-block;
     visibility: visible; }
  }
 
-/* line 646, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 650, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .unit-left {
   float: left; }
 
-/* line 650, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 654, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .unit-right {
   float: right; }
 
-/* line 654, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 658, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .center-object {
   display: block;
   margin: 0 auto; }
 
-/* line 659, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 663, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .unit-content-distribute {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -712,14 +716,14 @@ table {
   -webkit-align-items: center;
   align-items: center; }
 
-/* line 674, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 678, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .content-fill {
   -ms-flex-grow: 2;
   -webkit-flex-grow: 2;
   -ms-flex-positive: 2;
       flex-grow: 2; }
 
-/* line 680, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/grid */
+/* line 684, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/grid */
 .content-shrink {
   -ms-align-self: center;
   -webkit-align-self: center;
@@ -727,7 +731,7 @@ table {
           align-self: center; }
 
 /* — — — — — BASE SPACING & BASE FONT IMPLEMENTATION — — — — — */
-/* line 5, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 5, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 html {
   font-family: 'Roboto', sans-serif;
   /* ! — ! VARIABLE ! — ! */
@@ -736,172 +740,172 @@ html {
 
 /* — — — — — TYPE SIZING — — — — — */
 /* ! — ! BI-CLASS IS TEMPORARY, decide whether to use universe class, or byte-size class ! — ! */
-/* line 13, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 13, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .w700 {
   font-weight: 700; }
 
-/* line 17, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 17, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .w400 {
   font-weight: 400; }
 
-/* line 21, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 21, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .w300 {
   font-weight: 300; }
 
-/* line 25, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 25, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .w100 {
   font-weight: 100; }
 
-/* line 29, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 29, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .multiverse, .yotta {
   font-size: 4.767rem;
   margin: 1.414em 0 0.5em;
   line-height: 1.2; }
 
-/* line 35, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 35, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .universe, .zeta {
   font-size: 3.814rem;
   margin: 1.414em 0 0.5em;
   line-height: 1.2; }
 
-/* line 41, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 41, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 h1, .galaxy, .exa {
   font-size: 3.998em;
   margin: 1.414em 0 0.5em;
   line-height: 1.2; }
 
-/* line 47, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 47, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 h2, .starsystem, .peta {
   font-size: 2.827em;
   margin: 1.414em 0 0.5em;
   line-height: 1.2; }
 
-/* line 53, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 53, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 h3, .star, .tera {
   font-size: 1.999em;
   margin: 1.414em 0 0.5em;
   line-height: 1.2; }
 
-/* line 59, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 59, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 h4, .planet, .giga {
   font-size: 1.414em;
   margin: 1.414em 0 0.5em;
   line-height: 1.2; }
 
-/* line 65, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 65, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 h5, .organism, .mega {
   font-size: 1.25rem;
   margin: 1.414em 0 0.5em;
   line-height: 1.2; }
 
-/* line 71, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 71, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 h6, .cell, .kilo {
   font-size: 1rem;
   margin: 1.414em 0 0.5em;
   line-height: 1.2; }
 
-/* line 77, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 77, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 small, .atom, .milli {
   font-size: 0.707em;
   margin: 1.414em 0 0.5em;
   line-height: 1.2; }
 
-/* line 83, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 83, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .string, .micro {
   font-size: 0.64rem;
   margin: 1.414em 0 0.5em;
   line-height: 1.2; }
 
-/* line 89, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 89, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 p {
   font-weight: 300;
   line-height: 1.55;
   margin-bottom: 1.35em; }
 
 /* — — — — — TYPE-RELATED STYLING — — — — — */
-/* line 97, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 97, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .push {
   margin-bottom: 1.5rem; }
 
-/* line 101, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 101, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .push-none, .push-0 {
   margin-bottom: 0; }
 
-/* line 105, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 105, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .push-double, .push-2 {
   margin-bottom: 3rem; }
 
-/* line 109, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 109, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .push-half, .push-1-2 {
   margin-bottom: 0.75rem; }
 
-/* line 113, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 113, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .pad-top, .pad-t {
   padding-top: 1.5rem; }
 
-/* line 117, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 117, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .pad-bottom, .pad-b {
   padding-bottom: 1.5rem; }
 
-/* line 121, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 121, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .pad-top-double, .pad-t-2 {
   padding-top: 3rem; }
 
-/* line 125, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 125, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .pad-bottom-double, .pad-b-2 {
   padding-bottom: 3rem; }
 
-/* line 129, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 129, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .pad-top-half, .pad-t-1-2 {
   padding-top: 0.75rem; }
 
-/* line 133, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 133, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .pad-bottom-half, .pad-b-1-2 {
   padding-bottom: 0.75rem; }
 
-/* line 137, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 137, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .island {
   padding: 1.5rem; }
 
-/* line 141, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 141, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .island-half, .island-1-2 {
   padding: 0.75rem; }
 
-/* line 145, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 145, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .island-double, .island-2 {
   padding: 3rem; }
 
-/* line 149, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 149, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .gutter {
   padding-left: 1.5rem;
   padding-right: 1.5rem; }
 
-/* line 154, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 154, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .gutter-half, .gutter-1-2 {
   padding-left: 0.75rem;
   padding-right: 0.75rem; }
 
-/* line 159, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 159, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .gutter-double, .gutter-2 {
   padding-left: 3rem;
   padding-right: 3rem; }
 
-/* line 164, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 164, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 a, a:link {
   text-decoration: none;
   color: #228B22
   /* border-bottom: .1em dotted rgba(34,139,34,.55); */ }
 
-/* line 170, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 170, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 a:visited {
   color: #2E8B57;
   border-bottom-color: 1em dotted #2E8B57; }
 
-/* line 175, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 175, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 a:hover {
   color: rgba(34, 139, 34, 0.55); }
 
-/* line 179, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 179, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 a:focus {
   border-bottom: none;
   outline: 1px dotted #228B22;
@@ -909,107 +913,107 @@ a:focus {
   color: #fff;
   text-shadow: 1px 1px #228B22; }
 
-/* line 187, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 187, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 a:active {
   color: #228B22;
   background-color: transparent;
   text-shadow: none; }
 
-/* line 193, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 193, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 em, dfn {
   font-style: italic;
   font-weight: inherit; }
 
-/* line 198, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 198, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 strong {
   font-weight: bold;
   font-style: inherit; }
 
-/* line 203, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 203, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 sub, sup {
   margin: 0;
   padding: 0;
   line-height: 1.2em; }
 
-/* line 209, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 209, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 mark {
   background-color: rgba(152, 251, 152, 0.5); }
 
-/* line 213, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 213, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 ::-moz-selection {
   background-color: rgba(152, 251, 152, 0.75); }
 ::selection {
   background-color: rgba(152, 251, 152, 0.75); }
 
-/* line 217, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 217, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 ::-moz-selection {
   background-color: rgba(152, 251, 152, 0.75); }
 
-/* line 221, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 221, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 del {
   color: #C0C0C0; }
 
-/* line 225, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 225, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 ins {
   text-decoration: none;
   font-style: italic;
   font-weight: inherit; }
 
-/* line 231, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 231, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 q {
   display: inline; }
 
-/* line 235, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 235, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 q:before {
   content: open-quote; }
 
-/* line 239, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 239, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 q:after {
   content: close-quote; }
 
-/* line 243, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 243, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 ul, ol {
   width: 100%; }
 
-/* line 247, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 247, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 ul li {
   display: block;
   list-style-type: none;
   font-weight: 300; }
 
-/* line 253, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 253, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 ol li {
   font-weight: 300;
   list-style-type: upper-roman; }
 
-/* line 258, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 258, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 dl {
   width: 100%; }
 
-/* line 262, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 262, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 dt {
   font-weight: 400;
   text-decoration: none; }
 
-/* line 267, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 267, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 dd {
   font-style: italic;
   font-weight: 300; }
 
-/* line 272, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 272, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 .figure {
   display: block;
   margin: 0 auto;
   width: 50%; }
 
-/* line 278, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 278, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 figure {
   width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden; }
 
-/* line 285, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+/* line 285, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
 figcaption {
   font-style: italic;
   font-weight: 400;
@@ -1021,29 +1025,46 @@ figcaption {
   margin: 0;
   padding: 1rem 1rem; }
 
+<<<<<<< HEAD
 /* line 297, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+=======
+/* line 296, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
+>>>>>>> origin/partners-media
 figure img {
   width: 100%;
   padding: 0;
   margin: 0; }
 
+<<<<<<< HEAD
 /* line 303, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+=======
+/* line 302, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
+>>>>>>> origin/partners-media
 table {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
   margin: 1rem 0; }
 
+<<<<<<< HEAD
 /* line 310, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
 table caption {
   font-weight: 500; }
 
 /* line 314, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+=======
+/* line 309, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
+table caption {
+  font-weight: 500; }
+
+/* line 313, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
+>>>>>>> origin/partners-media
 th {
   text-decoration: none;
   font-weight: 400;
   font-style: normal; }
 
+<<<<<<< HEAD
 /* line 320, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
 td {
   font-weight: 300; }
@@ -1057,6 +1078,21 @@ tr:last-child {
   border-bottom: none; }
 
 /* line 332, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/typography */
+=======
+/* line 319, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
+td {
+  font-weight: 300; }
+
+/* line 323, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
+tr {
+  border-bottom: 1px dotted #C0C0C0; }
+
+/* line 327, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
+tr:last-child {
+  border-bottom: none; }
+
+/* line 331, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/typography */
+>>>>>>> origin/partners-media
 tr:nth-child(even) {
   background-color: rgba(152, 251, 152, 0.1); }
 
@@ -1080,7 +1116,7 @@ tr:nth-child(even) {
   width: device-width;
   scale: 1; }
 
-/* line 8, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 8, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .header {
   width: 100%;
   position: relative;
@@ -1088,16 +1124,16 @@ tr:nth-child(even) {
   background-size: cover;
   padding: 6em 0em; }
 
-/* line 16, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 16, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .tag-line {
   display: block;
   letter-spacing: 0.25px; }
 
-/* line 21, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 21, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .logo-wrapper {
   margin: 0;
   padding: 0; }
-  /* line 24, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 24, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .logo-wrapper a {
     height: 110px;
     width: 100px;
@@ -1107,14 +1143,14 @@ tr:nth-child(even) {
     background: url("../images/logo.svg") no-repeat center center;
     background-size: 100px auto; }
 
-/* line 35, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 35, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .header h3 {
   text-align: center;
   margin: 0 auto;
   color: #f5f5f5;
   text-shadow: 2px 2px 2px #222222; }
 
-/* line 42, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 42, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .videoWrapper {
   position: relative;
   height: 0;
@@ -1124,7 +1160,7 @@ tr:nth-child(even) {
   padding-bottom: 56.25%
   /* 16/9 ratio */
   /*background: #000;*/ }
-  /* line 50, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 50, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .videoWrapper iframe {
     position: absolute;
     top: 0;
@@ -1133,7 +1169,7 @@ tr:nth-child(even) {
     height: 100%;
     /* @editable properties */
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); }
-  /* line 59, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 59, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .videoWrapper video {
     position: absolute;
     top: 0;
@@ -1146,12 +1182,12 @@ tr:nth-child(even) {
     background-position: 50% 50%; }
 
 @media only screen and (max-width: 600px) {
-  /* line 74, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 74, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .header h3 {
     display: block;
     visibility: hidden; }
 
-  /* line 81, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 81, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle {
     background: transparent;
     height: 26px;
@@ -1162,7 +1198,7 @@ tr:nth-child(even) {
     position: absolute;
     z-index: 1000; }
 
-  /* line 94, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 94, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle span, .hb-toggle span:before, .hb-toggle span:after {
     position: absolute;
     border-radius: 1px;
@@ -1173,39 +1209,39 @@ tr:nth-child(even) {
     content: '';
     transition: all 250ms ease-in-out; }
 
-  /* line 107, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 107, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle span:before {
     top: -10px; }
 
-  /* line 111, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 111, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle span:after {
     bottom: -10px; }
 
-  /* line 115, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 115, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle.expand span {
     background-color: transparent; }
 
-  /* line 120, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 120, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle.expand span:before, .hb-toggle.expand span:after {
     top: 0; }
 
-  /* line 124, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 124, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle.expand span:before {
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg); }
 
-  /* line 130, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 130, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .hb-toggle.expand span:after {
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg); }
 
-  /* line 138, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 138, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .no-scroll {
     overflow: hidden; }
 
-  /* line 142, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 142, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .top-nav ul {
     position: fixed;
     opacity: 0;
@@ -1214,26 +1250,26 @@ tr:nth-child(even) {
     width: 100%;
     top: 0em;
     z-index: 999; }
-    /* line 150, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 150, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .top-nav ul li {
       width: 100%;
       text-align: center; }
-    /* line 154, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 154, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .top-nav ul li:first-child {
       margin-top: 6em; }
-    /* line 157, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 157, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .top-nav ul a {
       color: #f5f5f5;
       text-align: center;
       border-bottom: none;
       letter-spacing: 1px; }
 
-  /* line 165, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 165, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .top-nav[data-state="expand"] ul {
     opacity: 0.9; }
  }
 
-/* line 173, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 173, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .top-nav ul {
   margin: 0;
   padding: 0;
@@ -1243,15 +1279,15 @@ tr:nth-child(even) {
   bottom: 0;
   text-align: center;
   display: block; }
-  /* line 181, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 181, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .top-nav ul li {
-    font-size: 1.25rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     border-right: 2px solid #222222; }
-    /* line 185, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 185, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .top-nav ul li:last-child {
       border-right: none; }
-    /* line 188, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 188, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .top-nav ul li a {
       transition: all 250ms linear;
       border-bottom: none;
@@ -1261,30 +1297,84 @@ tr:nth-child(even) {
       display: block;
       background-color: #2b2b2b;
       opacity: 0.9; }
-      /* line 197, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+      /* line 197, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
       .top-nav ul li a:hover {
         background-color: #222222;
         opacity: 1; }
 
-/* line 209, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 208, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.top-nav ul li:nth-child(6), .top-nav ul li:nth-child(7) {
+  display: none; }
+
+/* line 212, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.lr-btn {
+  position: absolute;
+  top: 30px;
+  left: calc(100vw - 11em); }
+
+/* line 218, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.lr-btn a {
+  color: #ffffff;
+  border-bottom: none;
+  letter-spacing: 1px; }
+
+/* line 224, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.lr-btn li:first-child a {
+  border-right: 2px solid #ffffff;
+  margin-right: 1em;
+  padding-right: 1em; }
+
+/* line 230, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+.lr-btn a:hover {
+  opacity: 0.6; }
+
+@media only screen and (max-width: 600px) {
+  /* line 237, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .lr-btn {
+    display: none; }
+
+  /* line 241, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .top-nav ul li:nth-child(6) {
+    border-right: 2px solid #ffffff; }
+
+  /* line 246, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .top-nav ul li:nth-child(6), .top-nav ul li:nth-child(7) {
+    display: inline-block;
+    width: 35%;
+    margin: 0.25em 0; }
+
+  /* line 253, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .top-nav ul li:nth-child(6) a, .top-nav ul li:nth-child(7) a {
+    margin: 0;
+    padding: 0.35em 0;
+    font-size: 0.8em; }
+ }
+
+@media only screen and (min-width: 400px) {
+  /* line 263, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .top-nav ul li:nth-child(6), .top-nav ul li:nth-child(7) {
+    width: 25%; }
+ }
+
+/* line 273, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .bottom-nav ul {
   margin: 0;
   padding: 0;
   font-size: 0;
   background-color: #2b2b2b;
   margin: 0 auto; }
-  /* line 214, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 278, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .bottom-nav ul li {
     font-size: 1rem;
     padding-bottom: 2em;
     text-align: center; }
-    /* line 218, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 282, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .bottom-nav ul li ul li {
       padding: 0.5rem 0; }
-      /* line 220, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+      /* line 284, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
       .bottom-nav ul li ul li a {
         padding: 0; }
-  /* line 225, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 289, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .bottom-nav ul a {
     transition: all 250ms linear;
     padding: 2.5em 0 0.5em 0;
@@ -1292,52 +1382,52 @@ tr:nth-child(even) {
     border-bottom: none;
     color: #bdc4a7;
     display: block; }
-    /* line 232, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 296, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .bottom-nav ul a:hover {
       opacity: 0.6; }
 
 @media only screen and (max-width: 600px) {
-  /* line 241, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 305, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .bottom-nav ul {
     margin: 0;
     padding: 0;
     font-size: 0;
     display: block;
     background-color: #2b2b2b; }
-    /* line 246, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 310, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .bottom-nav ul li {
       font-size: 1rem; }
-      /* line 248, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+      /* line 312, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
       .bottom-nav ul li ul li {
         padding: 0.5rem; }
-        /* line 250, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+        /* line 314, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
         .bottom-nav ul li ul li a {
           padding: 0; }
-    /* line 255, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+    /* line 319, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
     .bottom-nav ul a {
       transition: all 250ms linear;
       padding: 2.5em 0 0.5em 0;
       display: block;
       width: 100%;
       text-align: center; }
-      /* line 261, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+      /* line 325, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
       .bottom-nav ul a:hover {
         opacity: 0.6; }
  }
 
 /* — — — — DONATIONS — — — — */
-/* line 270, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 334, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .wrap {
   display: block;
   overflow: hidden; }
 
-/* line 275, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 339, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .donations {
   clear: both;
   display: block;
   overflow: hidden; }
 
-/* line 281, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+/* line 345, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
 .donate-button {
   box-sizing: border-box;
   margin: 0;
@@ -1348,7 +1438,7 @@ tr:nth-child(even) {
   overflow: hidden;
   background-color: #f7f7f7;
   transition: all 250ms linear; }
-  /* line 293, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 357, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button h3 {
     width: 100%;
     text-align: center;
@@ -1358,7 +1448,7 @@ tr:nth-child(even) {
     position: absolute;
     top: 27.5%;
     transition: all 150ms ease-in; }
-  /* line 303, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 367, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button p {
     -webkit-transform: translateY(210px);
         -ms-transform: translateY(210px);
@@ -1367,7 +1457,7 @@ tr:nth-child(even) {
     vertical-align: middle;
     transition: all 200ms ease-out;
     opacity: 0; }
-  /* line 310, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 374, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button input {
     height: 13rem;
     border: none;
@@ -1375,7 +1465,7 @@ tr:nth-child(even) {
     font-size: 4rem;
     font-weight: 300;
     margin: 0; }
-  /* line 318, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+  /* line 382, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
   .donate-button input[type="number"] {
     display: block;
     margin: 0;
@@ -1386,12 +1476,19 @@ tr:nth-child(even) {
     font-size: 4rem;
     font-weight: 100;
     text-align: right; }
+<<<<<<< HEAD
     /* line 328, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
     .donate-button input[type="number"]:focus, .donate-button input[type="number"]:active {
       outline: 1px solid #6B8E23;
       border: none;
       background-color: #f8fff2; }
   /* line 334, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+    /* line 392, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    .donate-button input[type="number"]:focus {
+      outline: 1px solid #6B8E23; }
+  /* line 396, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .donate-button input[type=radio] {
     opacity: 0;
     position: absolute;
@@ -1403,7 +1500,11 @@ tr:nth-child(even) {
     margin-right: 20px;
     overflow: visible
     /* HOW DOES THIS EVEN FIX IT? BUT IT WORKS?! */ }
+<<<<<<< HEAD
   /* line 344, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+  /* line 406, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .donate-button input[type=radio]:checked {
     opacity: 1;
     transition: all 150ms ease-in;
@@ -1411,7 +1512,11 @@ tr:nth-child(even) {
         -ms-transform: translateY(9.75rem);
             transform: translateY(9.75rem);
     height: 3.25rem; }
+<<<<<<< HEAD
   /* line 351, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+  /* line 413, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .donate-button input[type=radio]:checked:before {
     content: 'Selected';
     position: absolute;
@@ -1441,39 +1546,63 @@ tr:nth-child(even) {
       .donate-button input[type=radio]:checked:before {
         /* — — — — —XLARGE Screens — — — — — */
         padding: 0 0 0rem 36.5%; } }
+<<<<<<< HEAD
   /* line 376, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+  /* line 438, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .donate-button ::-webkit-input-placeholder {
     color: #A1A1A1;
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
     text-align: center; }
+<<<<<<< HEAD
   /* line 383, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+  /* line 445, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .donate-button ::-moz-placeholder {
     color: #A1A1A1;
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
     text-align: center; }
+<<<<<<< HEAD
   /* line 390, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+  /* line 452, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .donate-button :-moz-placeholder {
     color: #A1A1A1;
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
     text-align: center; }
+<<<<<<< HEAD
   /* line 397, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+  /* line 459, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .donate-button :-ms-input-placeholder {
     color: #A1A1A1;
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: 100;
     text-align: center; }
+<<<<<<< HEAD
   /* line 404, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
   .donate-button:hover {
     cursor: pointer;
     background: #6B8E23; }
     /* line 406, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+  /* line 466, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+  .donate-button:hover {
+    cursor: pointer;
+    background: #6B8E23; }
+    /* line 468, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
     .donate-button:hover h3 {
       color: #f5f5f5;
       -webkit-transform: translateY(-5px);
@@ -1481,7 +1610,11 @@ tr:nth-child(even) {
               transform: translateY(-5px);
       font-size: 2.5rem;
       font-weight: 700; }
+<<<<<<< HEAD
     /* line 412, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+    /* line 474, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
     .donate-button:hover p {
       color: #f5f5f5;
       -webkit-transform: translateY(105px);
@@ -1489,7 +1622,11 @@ tr:nth-child(even) {
               transform: translateY(105px);
       opacity: 1; }
 
+<<<<<<< HEAD
 /* line 421, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+/* line 483, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
 textarea {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -1505,19 +1642,31 @@ textarea {
     border: none;
     background-color: #f8fff2; }
 
+<<<<<<< HEAD
 /* line 437, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+/* line 494, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
 .dedication {
   position: relative;
   height: 3.75rem;
   float: left; }
+<<<<<<< HEAD
   /* line 441, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+  /* line 498, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .dedication label {
     width: 100%;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 2rem; }
+<<<<<<< HEAD
   /* line 449, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+  /* line 506, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .dedication input[type="text"], .dedication input[type="email"] {
     float: right;
     height: 2rem;
@@ -1529,6 +1678,7 @@ textarea {
     font-size: 1rem;
     font-weight: 300;
     background-color: #f5f5f5; }
+<<<<<<< HEAD
     /* line 460, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
     .dedication input[type="text"]:focus, .dedication input[type="text"]:active, .dedication input[type="email"]:focus, .dedication input[type="email"]:active {
       outline: 1px solid #6B8E23;
@@ -1541,24 +1691,48 @@ textarea {
       .dedication label {
         width: 35%; }
       /* line 471, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+    /* line 517, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+    .dedication input[type="text"]:focus, .dedication input[type="email"]:focus {
+      outline: 1px solid #6B8E23; }
+  @media only screen and (min-width: 25em) {
+    .dedication {
+      /* — — — — — Up to SMALL Screens — — — — — */ }
+      /* line 522, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+      .dedication label {
+        width: 35%; }
+      /* line 526, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
       .dedication input[type="text"], .dedication input[type="email"] {
         width: 65%; } }
 
 @media only screen and (max-width: 25em) {
   /* — — — — — Up to SMALL Screens — — — — — */
+<<<<<<< HEAD
   /* line 478, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+  /* line 533, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .mobile {
     width: 90%; }
  }
 
 @media only screen and (max-width: 38em) {
   /* — — — — — Up to SMALL Screens — — — — — */
+<<<<<<< HEAD
   /* line 484, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+  /* line 539, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .mobile {
     width: 95%; }
  }
 
+<<<<<<< HEAD
 /* line 489, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+/* line 544, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
 .info-box {
   display: inline-block;
   float: left;
@@ -1566,7 +1740,11 @@ textarea {
   text-align: center;
   padding: 1.75rem; }
 
+<<<<<<< HEAD
 /* line 497, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+/* line 552, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
 .gigantor-donate-button {
   transition: all 200ms ease-in;
   display: block;
@@ -1574,15 +1752,24 @@ textarea {
   text-align: center;
   background-color: #6B8E23;
   height: 13rem; }
+<<<<<<< HEAD
   /* line 498, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+  /* line 553, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .gigantor-donate-button a, .gigantor-donate-button:visited, .gigantor-donate-button:link {
     color: #f5f5f5;
     text-decoration: none;
     border: none;
     border-bottom: 0px solid red;
+<<<<<<< HEAD
     font-weight: 300;
     padding-top: 5rem; }
   /* line 512, /Users/gabrielayon/Documents/Algonquin College/6th Sem Winter/Web Dev/non-profit-website/scss/components/main */
+=======
+    font-weight: 300; }
+  /* line 567, /Users/Mark/Documents/Mark/Year 3-3/Semester 2/Web Development/non-profit-website/scss/components/main */
+>>>>>>> gh-pages
   .gigantor-donate-button:hover, .gigantor-donate-button:focus, .gigantor-donate-button:active {
     color: #f5f5f5;
     background-color: #77c951;
