@@ -61,3 +61,11 @@ exitLr.click(function(e){
 	hamburgerToggle.removeClass('expand');
 });
 
+$(document).keyup(function(e) {
+    if (e.keyCode == 27) { // esc keycode
+    lrWrppr.attr('data-state', 'collapse');
+		topNav.attr('data-state','collapse');
+		siteWrapper.removeClass('no-scroll');
+		hamburgerToggle.removeClass('expand');
+		}
+});
